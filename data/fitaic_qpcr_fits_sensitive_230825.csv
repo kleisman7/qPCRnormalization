@@ -1,0 +1,1177 @@
+wwtp,prevind,fit,lag,aic
+comb,positive tests,orig-raw_data,-10,364.3167725890605
+comb,positive tests,raw_data,-10,90.2026713413045
+comb,test positivity rate,orig-raw_data,-10,451.8623706406532
+comb,test positivity rate,raw_data,-10,17.73357733918874
+comb,hospital admissions,orig-raw_data,-10,363.5843389312171
+comb,hospital admissions,raw_data,-10,-71.2752462321472
+comb,Cook County beds in use,orig-raw_data,-10,402.66206749699404
+comb,Cook County beds in use,raw_data,-10,-142.96453674428278
+comb,positive tests,orig-only_flow_norm,-10,403.84229294849
+comb,positive tests,only_flow_norm,-10,65.01194164300307
+comb,test positivity rate,orig-only_flow_norm,-10,478.28390430691593
+comb,test positivity rate,only_flow_norm,-10,-15.335870334706442
+comb,hospital admissions,orig-only_flow_norm,-10,393.6662874941487
+comb,hospital admissions,only_flow_norm,-10,-96.81182548618438
+comb,Cook County beds in use,orig-only_flow_norm,-10,427.8069408967224
+comb,Cook County beds in use,only_flow_norm,-10,-177.56782841647907
+comb,positive tests,orig-pmmov_norm,-10,322.370826043432
+comb,positive tests,pmmov_norm,-10,60.884916872669464
+comb,test positivity rate,orig-pmmov_norm,-10,389.81553327098266
+comb,test positivity rate,pmmov_norm,-10,1.9881252344542872
+comb,hospital admissions,orig-pmmov_norm,-10,316.7748061359324
+comb,hospital admissions,pmmov_norm,-10,-97.63242493475434
+comb,Cook County beds in use,orig-pmmov_norm,-10,348.2906896835482
+comb,Cook County beds in use,pmmov_norm,-10,-162.56073789172922
+comb,positive tests,orig-only_bcov_norm,-10,228.0642472530551
+comb,positive tests,only_bcov_norm,-10,34.67727282301712
+comb,test positivity rate,orig-only_bcov_norm,-10,252.67689576932764
+comb,test positivity rate,only_bcov_norm,-10,-54.02627287840994
+comb,hospital admissions,orig-only_bcov_norm,-10,190.28692722040762
+comb,hospital admissions,only_bcov_norm,-10,-145.06494410013158
+comb,Cook County beds in use,orig-only_bcov_norm,-10,225.46251985679226
+comb,Cook County beds in use,only_bcov_norm,-10,-209.9645893427329
+comb,positive tests,orig-bcov_flow_norm,-10,265.9520099012127
+comb,positive tests,bcov_flow_norm,-10,20.531151240071722
+comb,test positivity rate,orig-bcov_flow_norm,-10,280.1325740053105
+comb,test positivity rate,bcov_flow_norm,-10,-73.99853996316995
+comb,hospital admissions,orig-bcov_flow_norm,-10,216.37392296383246
+comb,hospital admissions,bcov_flow_norm,-10,-158.46963484721425
+comb,Cook County beds in use,orig-bcov_flow_norm,-10,246.0355077513782
+comb,Cook County beds in use,bcov_flow_norm,-10,-231.53815284950645
+comb,positive tests,orig-pmmov_bcov_norm,-10,544.9742001311208
+comb,positive tests,pmmov_bcov_norm,-10,31.8270586324885
+comb,test positivity rate,orig-pmmov_bcov_norm,-10,534.7691164482023
+comb,test positivity rate,pmmov_bcov_norm,-10,-52.02783991278443
+comb,hospital admissions,orig-pmmov_bcov_norm,-10,528.4072864539376
+comb,hospital admissions,pmmov_bcov_norm,-10,-144.6948802329124
+comb,Cook County beds in use,orig-pmmov_bcov_norm,-10,533.9959117916449
+comb,Cook County beds in use,pmmov_bcov_norm,-10,-208.3983534801572
+comb,positive tests,orig-pmmov_bcov_flow_norm,-10,576.2101911741217
+comb,positive tests,pmmov_bcov_flow_norm,-10,10.906391694574154
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,-10,563.5629487619905
+comb,test positivity rate,pmmov_bcov_flow_norm,-10,-73.43237030508806
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,-10,555.2782389544143
+comb,hospital admissions,pmmov_bcov_flow_norm,-10,-162.18371790948174
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,-10,559.2716438404664
+comb,Cook County beds in use,pmmov_bcov_flow_norm,-10,-233.51863564604753
+comb,positive tests,orig-raw_data,-9,362.7179165148767
+comb,positive tests,raw_data,-9,90.38819118175797
+comb,test positivity rate,orig-raw_data,-9,449.2858009169497
+comb,test positivity rate,raw_data,-9,14.511448186250732
+comb,hospital admissions,orig-raw_data,-9,360.59873971331274
+comb,hospital admissions,raw_data,-9,-71.38446267693496
+comb,Cook County beds in use,orig-raw_data,-9,398.84284823833616
+comb,Cook County beds in use,raw_data,-9,-149.61357994006755
+comb,positive tests,orig-only_flow_norm,-9,401.7756748927653
+comb,positive tests,only_flow_norm,-9,66.50782071667777
+comb,test positivity rate,orig-only_flow_norm,-9,475.41325442236047
+comb,test positivity rate,only_flow_norm,-9,-17.303580750664423
+comb,hospital admissions,orig-only_flow_norm,-9,389.86985074342
+comb,hospital admissions,only_flow_norm,-9,-94.32188328946506
+comb,Cook County beds in use,orig-only_flow_norm,-9,423.78029330726645
+comb,Cook County beds in use,only_flow_norm,-9,-183.06669293882203
+comb,positive tests,orig-pmmov_norm,-9,314.66847830892937
+comb,positive tests,pmmov_norm,-9,57.2723727972965
+comb,test positivity rate,orig-pmmov_norm,-9,385.1862136817906
+comb,test positivity rate,pmmov_norm,-9,-2.7618587593229904
+comb,hospital admissions,orig-pmmov_norm,-9,310.1339771995147
+comb,hospital admissions,pmmov_norm,-9,-100.9857010806196
+comb,Cook County beds in use,orig-pmmov_norm,-9,342.1348447505445
+comb,Cook County beds in use,pmmov_norm,-9,-171.79525122470307
+comb,positive tests,orig-only_bcov_norm,-9,222.7341988481711
+comb,positive tests,only_bcov_norm,-9,31.914503283450244
+comb,test positivity rate,orig-only_bcov_norm,-9,249.66926376113645
+comb,test positivity rate,only_bcov_norm,-9,-58.13548646686138
+comb,hospital admissions,orig-only_bcov_norm,-9,184.84857861649516
+comb,hospital admissions,only_bcov_norm,-9,-148.2924177179135
+comb,Cook County beds in use,orig-only_bcov_norm,-9,218.37007500865207
+comb,Cook County beds in use,only_bcov_norm,-9,-221.29322796294207
+comb,positive tests,orig-bcov_flow_norm,-9,260.20949423134937
+comb,positive tests,bcov_flow_norm,-9,19.0476402347133
+comb,test positivity rate,orig-bcov_flow_norm,-9,276.4696079076474
+comb,test positivity rate,bcov_flow_norm,-9,-76.96467076866122
+comb,hospital admissions,orig-bcov_flow_norm,-9,209.50877560331855
+comb,hospital admissions,bcov_flow_norm,-9,-159.40527863503632
+comb,Cook County beds in use,orig-bcov_flow_norm,-9,238.52224773117894
+comb,Cook County beds in use,bcov_flow_norm,-9,-241.60708332186562
+comb,positive tests,orig-pmmov_bcov_norm,-9,539.9320642809743
+comb,positive tests,pmmov_bcov_norm,-9,27.684695083466977
+comb,test positivity rate,orig-pmmov_bcov_norm,-9,532.5099370239736
+comb,test positivity rate,pmmov_bcov_norm,-9,-56.1590326340264
+comb,hospital admissions,orig-pmmov_bcov_norm,-9,524.7727615759236
+comb,hospital admissions,pmmov_bcov_norm,-9,-148.68595887084473
+comb,Cook County beds in use,orig-pmmov_bcov_norm,-9,530.2751430396584
+comb,Cook County beds in use,pmmov_bcov_norm,-9,-219.99872301853145
+comb,positive tests,orig-pmmov_bcov_flow_norm,-9,571.2350817980446
+comb,positive tests,pmmov_bcov_flow_norm,-9,7.540801702552244
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,-9,561.111986341654
+comb,test positivity rate,pmmov_bcov_flow_norm,-9,-76.8422456181869
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,-9,551.2689436137207
+comb,hospital admissions,pmmov_bcov_flow_norm,-9,-164.1172712780077
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,-9,555.4971260956928
+comb,Cook County beds in use,pmmov_bcov_flow_norm,-9,-244.24175162408858
+comb,positive tests,orig-raw_data,-8,359.4016192676247
+comb,positive tests,raw_data,-8,90.82640362012853
+comb,test positivity rate,orig-raw_data,-8,448.03715611969704
+comb,test positivity rate,raw_data,-8,-3.6579397489555276
+comb,hospital admissions,orig-raw_data,-8,358.4252711293914
+comb,hospital admissions,raw_data,-8,-70.91916038364764
+comb,Cook County beds in use,orig-raw_data,-8,394.7716441829731
+comb,Cook County beds in use,raw_data,-8,-154.79012197709847
+comb,positive tests,orig-only_flow_norm,-8,397.3556711827074
+comb,positive tests,only_flow_norm,-8,69.7365963451906
+comb,test positivity rate,orig-only_flow_norm,-8,472.3717817419811
+comb,test positivity rate,only_flow_norm,-8,-32.51348296579363
+comb,hospital admissions,orig-only_flow_norm,-8,387.1101931130704
+comb,hospital admissions,only_flow_norm,-8,-92.03266960013104
+comb,Cook County beds in use,orig-only_flow_norm,-8,419.61770951896506
+comb,Cook County beds in use,only_flow_norm,-8,-187.18241326508667
+comb,positive tests,orig-pmmov_norm,-8,307.1656902626778
+comb,positive tests,pmmov_norm,-8,54.291188049519405
+comb,test positivity rate,orig-pmmov_norm,-8,378.84466219279534
+comb,test positivity rate,pmmov_norm,-8,-23.677786240848036
+comb,hospital admissions,orig-pmmov_norm,-8,303.0635647650216
+comb,hospital admissions,pmmov_norm,-8,-104.4857102608413
+comb,Cook County beds in use,orig-pmmov_norm,-8,335.64157441010366
+comb,Cook County beds in use,pmmov_norm,-8,-179.8541015724776
+comb,positive tests,orig-only_bcov_norm,-8,220.44421450829407
+comb,positive tests,only_bcov_norm,-8,31.66827689920069
+comb,test positivity rate,orig-only_bcov_norm,-8,243.6853569094019
+comb,test positivity rate,only_bcov_norm,-8,-81.06466027488261
+comb,hospital admissions,orig-only_bcov_norm,-8,180.31907855945337
+comb,hospital admissions,only_bcov_norm,-8,-150.60379932732587
+comb,Cook County beds in use,orig-only_bcov_norm,-8,210.48584968775685
+comb,Cook County beds in use,only_bcov_norm,-8,-231.89535344770945
+comb,positive tests,orig-bcov_flow_norm,-8,255.9112918732112
+comb,positive tests,bcov_flow_norm,-8,21.126914684007033
+comb,test positivity rate,orig-bcov_flow_norm,-8,267.4632100589465
+comb,test positivity rate,bcov_flow_norm,-8,-97.10504673916546
+comb,hospital admissions,orig-bcov_flow_norm,-8,203.96966663963815
+comb,hospital admissions,bcov_flow_norm,-8,-160.12302674438672
+comb,Cook County beds in use,orig-bcov_flow_norm,-8,230.42249604640142
+comb,Cook County beds in use,bcov_flow_norm,-8,-251.01663419275098
+comb,positive tests,orig-pmmov_bcov_norm,-8,537.2140647949752
+comb,positive tests,pmmov_bcov_norm,-8,25.772666848217
+comb,test positivity rate,orig-pmmov_bcov_norm,-8,526.8721849901301
+comb,test positivity rate,pmmov_bcov_norm,-8,-79.20900100748565
+comb,hospital admissions,orig-pmmov_bcov_norm,-8,520.7893664865044
+comb,hospital admissions,pmmov_bcov_norm,-8,-152.16317896086377
+comb,Cook County beds in use,orig-pmmov_bcov_norm,-8,526.2811383998189
+comb,Cook County beds in use,pmmov_bcov_norm,-8,-230.94358217607544
+comb,positive tests,orig-pmmov_bcov_flow_norm,-8,567.8801959889693
+comb,positive tests,pmmov_bcov_flow_norm,-8,7.801561326446063
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,-8,554.4683384399943
+comb,test positivity rate,pmmov_bcov_flow_norm,-8,-97.42996567676698
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,-8,547.116951321321
+comb,hospital admissions,pmmov_bcov_flow_norm,-8,-166.45018844119988
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,-8,551.5363450444684
+comb,Cook County beds in use,pmmov_bcov_flow_norm,-8,-254.37058184389468
+comb,positive tests,orig-raw_data,-7,355.8428579196801
+comb,positive tests,raw_data,-7,88.09683935274086
+comb,test positivity rate,orig-raw_data,-7,444.4104533140484
+comb,test positivity rate,raw_data,-7,-14.760389725995083
+comb,hospital admissions,orig-raw_data,-7,356.43227940939005
+comb,hospital admissions,raw_data,-7,-74.72906163802747
+comb,Cook County beds in use,orig-raw_data,-7,391.14549461795264
+comb,Cook County beds in use,raw_data,-7,-160.09333116506002
+comb,positive tests,orig-only_flow_norm,-7,392.92324480693287
+comb,positive tests,only_flow_norm,-7,68.96957501864563
+comb,test positivity rate,orig-only_flow_norm,-7,466.7715700001428
+comb,test positivity rate,only_flow_norm,-7,-38.744453460050295
+comb,hospital admissions,orig-only_flow_norm,-7,384.49623905293663
+comb,hospital admissions,only_flow_norm,-7,-94.48924664080062
+comb,Cook County beds in use,orig-only_flow_norm,-7,415.78436013384135
+comb,Cook County beds in use,only_flow_norm,-7,-191.26435071078583
+comb,positive tests,orig-pmmov_norm,-7,297.9550026965376
+comb,positive tests,pmmov_norm,-7,47.285773210625166
+comb,test positivity rate,orig-pmmov_norm,-7,369.4551880987501
+comb,test positivity rate,pmmov_norm,-7,-38.93990029091913
+comb,hospital admissions,orig-pmmov_norm,-7,300.5164868279926
+comb,hospital admissions,pmmov_norm,-7,-109.29285242501203
+comb,Cook County beds in use,orig-pmmov_norm,-7,329.5110919477287
+comb,Cook County beds in use,pmmov_norm,-7,-188.1382824999074
+comb,positive tests,orig-only_bcov_norm,-7,213.7620953086298
+comb,positive tests,only_bcov_norm,-7,25.876853378406622
+comb,test positivity rate,orig-only_bcov_norm,-7,239.20153963846792
+comb,test positivity rate,only_bcov_norm,-7,-93.93602713868347
+comb,hospital admissions,orig-only_bcov_norm,-7,181.6812639294111
+comb,hospital admissions,only_bcov_norm,-7,-152.31380536729955
+comb,Cook County beds in use,orig-only_bcov_norm,-7,203.61584238171918
+comb,Cook County beds in use,only_bcov_norm,-7,-242.10222698053133
+comb,positive tests,orig-bcov_flow_norm,-7,247.96464531050822
+comb,positive tests,bcov_flow_norm,-7,17.074787514197396
+comb,test positivity rate,orig-bcov_flow_norm,-7,259.13331195572005
+comb,test positivity rate,bcov_flow_norm,-7,-105.80163147799738
+comb,hospital admissions,orig-bcov_flow_norm,-7,203.88466423844773
+comb,hospital admissions,bcov_flow_norm,-7,-160.85715461121038
+comb,Cook County beds in use,orig-bcov_flow_norm,-7,223.11758372463532
+comb,Cook County beds in use,bcov_flow_norm,-7,-259.93880408764073
+comb,positive tests,orig-pmmov_bcov_norm,-7,532.156688617674
+comb,positive tests,pmmov_bcov_norm,-7,18.200158823126458
+comb,test positivity rate,orig-pmmov_bcov_norm,-7,521.8535174651856
+comb,test positivity rate,pmmov_bcov_norm,-7,-92.6668865240498
+comb,hospital admissions,orig-pmmov_bcov_norm,-7,521.180154991127
+comb,hospital admissions,pmmov_bcov_norm,-7,-154.51066842253078
+comb,Cook County beds in use,orig-pmmov_bcov_norm,-7,522.6409608056942
+comb,Cook County beds in use,pmmov_bcov_norm,-7,-241.6016413624269
+comb,positive tests,orig-pmmov_bcov_flow_norm,-7,562.5155975792002
+comb,positive tests,pmmov_bcov_flow_norm,-7,1.789036569278096
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,-7,548.1051319997596
+comb,test positivity rate,pmmov_bcov_flow_norm,-7,-107.35182820666193
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,-7,546.995721302948
+comb,hospital admissions,pmmov_bcov_flow_norm,-7,-167.94566701705537
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,-7,547.8483444148369
+comb,Cook County beds in use,pmmov_bcov_flow_norm,-7,-264.1309231953229
+comb,positive tests,orig-raw_data,-6,349.70602058571797
+comb,positive tests,raw_data,-6,87.71039911933156
+comb,test positivity rate,orig-raw_data,-6,439.6891322639909
+comb,test positivity rate,raw_data,-6,-18.607082933080733
+comb,hospital admissions,orig-raw_data,-6,355.8127341630767
+comb,hospital admissions,raw_data,-6,-73.64764162097936
+comb,Cook County beds in use,orig-raw_data,-6,387.24697403487176
+comb,Cook County beds in use,raw_data,-6,-165.8134677639879
+comb,positive tests,orig-only_flow_norm,-6,385.30687941276153
+comb,positive tests,only_flow_norm,-6,72.04250210755947
+comb,test positivity rate,orig-only_flow_norm,-6,462.6291914054462
+comb,test positivity rate,only_flow_norm,-6,-43.17412211092608
+comb,hospital admissions,orig-only_flow_norm,-6,382.98836296501156
+comb,hospital admissions,only_flow_norm,-6,-91.50789613911445
+comb,Cook County beds in use,orig-only_flow_norm,-6,411.6279166988264
+comb,Cook County beds in use,only_flow_norm,-6,-195.5987365482855
+comb,positive tests,orig-pmmov_norm,-6,284.03295719982896
+comb,positive tests,pmmov_norm,-6,40.113246807718156
+comb,test positivity rate,orig-pmmov_norm,-6,359.54544285757754
+comb,test positivity rate,pmmov_norm,-6,-47.27330499834852
+comb,hospital admissions,orig-pmmov_norm,-6,298.41780844814343
+comb,hospital admissions,pmmov_norm,-6,-109.45257261357585
+comb,Cook County beds in use,orig-pmmov_norm,-6,323.0072615408517
+comb,Cook County beds in use,pmmov_norm,-6,-197.1796378563016
+comb,positive tests,orig-only_bcov_norm,-6,208.1148419163685
+comb,positive tests,only_bcov_norm,-6,23.363696019552435
+comb,test positivity rate,orig-only_bcov_norm,-6,225.0440194347135
+comb,test positivity rate,only_bcov_norm,-6,-107.85920885872531
+comb,hospital admissions,orig-only_bcov_norm,-6,184.29650117909205
+comb,hospital admissions,only_bcov_norm,-6,-148.7111494039542
+comb,Cook County beds in use,orig-only_bcov_norm,-6,196.12845797947216
+comb,Cook County beds in use,only_bcov_norm,-6,-253.41285148848158
+comb,positive tests,orig-bcov_flow_norm,-6,239.57113315037168
+comb,positive tests,bcov_flow_norm,-6,17.329025156960824
+comb,test positivity rate,orig-bcov_flow_norm,-6,246.33445625590957
+comb,test positivity rate,bcov_flow_norm,-6,-119.78080961811736
+comb,hospital admissions,orig-bcov_flow_norm,-6,204.7272575409056
+comb,hospital admissions,bcov_flow_norm,-6,-155.89761216816612
+comb,Cook County beds in use,orig-bcov_flow_norm,-6,215.08954322273178
+comb,Cook County beds in use,bcov_flow_norm,-6,-269.81685079412875
+comb,positive tests,orig-pmmov_bcov_norm,-6,526.8090308736157
+comb,positive tests,pmmov_bcov_norm,-6,12.123646869642812
+comb,test positivity rate,orig-pmmov_bcov_norm,-6,513.3734396479133
+comb,test positivity rate,pmmov_bcov_norm,-6,-107.04623564613792
+comb,hospital admissions,orig-pmmov_bcov_norm,-6,521.4249576157739
+comb,hospital admissions,pmmov_bcov_norm,-6,-151.7551635035801
+comb,Cook County beds in use,orig-pmmov_bcov_norm,-6,518.7949312787105
+comb,Cook County beds in use,pmmov_bcov_norm,-6,-253.46624317530575
+comb,positive tests,orig-pmmov_bcov_flow_norm,-6,556.3626153074715
+comb,positive tests,pmmov_bcov_flow_norm,-6,-1.6479558285484472
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,-6,540.4904601860667
+comb,test positivity rate,pmmov_bcov_flow_norm,-6,-122.34148503722975
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,-6,546.6485899388375
+comb,hospital admissions,pmmov_bcov_flow_norm,-6,-163.88659933454062
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,-6,543.9235571090626
+comb,Cook County beds in use,pmmov_bcov_flow_norm,-6,-274.9154335704087
+comb,positive tests,orig-raw_data,-5,345.20686981190136
+comb,positive tests,raw_data,-5,88.12916070465826
+comb,test positivity rate,orig-raw_data,-5,438.1371370650454
+comb,test positivity rate,raw_data,-5,-16.855688312914936
+comb,hospital admissions,orig-raw_data,-5,356.8424664640635
+comb,hospital admissions,raw_data,-5,-71.23250540818754
+comb,Cook County beds in use,orig-raw_data,-5,383.7799543402964
+comb,Cook County beds in use,raw_data,-5,-170.74909947021445
+comb,positive tests,orig-only_flow_norm,-5,379.66725568912796
+comb,positive tests,only_flow_norm,-5,74.85361095898656
+comb,test positivity rate,orig-only_flow_norm,-5,459.6578243258098
+comb,test positivity rate,only_flow_norm,-5,-37.48641517375745
+comb,hospital admissions,orig-only_flow_norm,-5,383.07667617812876
+comb,hospital admissions,only_flow_norm,-5,-87.45922980408034
+comb,Cook County beds in use,orig-only_flow_norm,-5,407.74138533113944
+comb,Cook County beds in use,only_flow_norm,-5,-198.7697668425327
+comb,positive tests,orig-pmmov_norm,-5,275.20428301989193
+comb,positive tests,pmmov_norm,-5,36.19118923299163
+comb,test positivity rate,orig-pmmov_norm,-5,355.2172215282734
+comb,test positivity rate,pmmov_norm,-5,-47.83362645360978
+comb,hospital admissions,orig-pmmov_norm,-5,292.64128434740337
+comb,hospital admissions,pmmov_norm,-5,-111.59469622207428
+comb,Cook County beds in use,orig-pmmov_norm,-5,316.6422902993212
+comb,Cook County beds in use,pmmov_norm,-5,-205.7171221702887
+comb,positive tests,orig-only_bcov_norm,-5,205.57102054891993
+comb,positive tests,only_bcov_norm,-5,23.104616694992842
+comb,test positivity rate,orig-only_bcov_norm,-5,221.3037281683786
+comb,test positivity rate,only_bcov_norm,-5,-108.45429960235435
+comb,hospital admissions,orig-only_bcov_norm,-5,179.81246978189006
+comb,hospital admissions,only_bcov_norm,-5,-150.56647059327145
+comb,Cook County beds in use,orig-only_bcov_norm,-5,189.4292017487153
+comb,Cook County beds in use,only_bcov_norm,-5,-263.5419910091558
+comb,positive tests,orig-bcov_flow_norm,-5,234.78477639692107
+comb,positive tests,bcov_flow_norm,-5,18.846043100932434
+comb,test positivity rate,orig-bcov_flow_norm,-5,239.8811151763358
+comb,test positivity rate,bcov_flow_norm,-5,-117.1067200982942
+comb,hospital admissions,orig-bcov_flow_norm,-5,199.01576643109286
+comb,hospital admissions,bcov_flow_norm,-5,-156.3433864620671
+comb,Cook County beds in use,orig-bcov_flow_norm,-5,207.54923928723508
+comb,Cook County beds in use,bcov_flow_norm,-5,-278.230534789304
+comb,positive tests,orig-pmmov_bcov_norm,-5,524.2569144647642
+comb,positive tests,pmmov_bcov_norm,-5,9.297990580236842
+comb,test positivity rate,orig-pmmov_bcov_norm,-5,510.3335921044615
+comb,test positivity rate,pmmov_bcov_norm,-5,-108.09704781015091
+comb,hospital admissions,orig-pmmov_bcov_norm,-5,516.2193886406045
+comb,hospital admissions,pmmov_bcov_norm,-5,-155.12982358743773
+comb,Cook County beds in use,orig-pmmov_bcov_norm,-5,515.0899637083864
+comb,Cook County beds in use,pmmov_bcov_norm,-5,-264.3344000814851
+comb,positive tests,orig-pmmov_bcov_flow_norm,-5,553.078224748121
+comb,positive tests,pmmov_bcov_flow_norm,-5,-2.5291292440489315
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,-5,536.4809092385501
+comb,test positivity rate,pmmov_bcov_flow_norm,-5,-119.977521776132
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,-5,541.2920130928956
+comb,hospital admissions,pmmov_bcov_flow_norm,-5,-166.06618934265146
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,-5,540.0426872222458
+comb,Cook County beds in use,pmmov_bcov_flow_norm,-5,-284.40577742058474
+comb,positive tests,orig-raw_data,-4,342.7602622493945
+comb,positive tests,raw_data,-4,89.41860548723741
+comb,test positivity rate,orig-raw_data,-4,435.12984949111205
+comb,test positivity rate,raw_data,-4,-21.104424742421088
+comb,hospital admissions,orig-raw_data,-4,355.68922698712527
+comb,hospital admissions,raw_data,-4,-66.47761042939271
+comb,Cook County beds in use,orig-raw_data,-4,380.219113732608
+comb,Cook County beds in use,raw_data,-4,-174.9671234334154
+comb,positive tests,orig-only_flow_norm,-4,375.59742028575715
+comb,positive tests,only_flow_norm,-4,78.5507473455084
+comb,test positivity rate,orig-only_flow_norm,-4,456.01918553073494
+comb,test positivity rate,only_flow_norm,-4,-40.04241254417366
+comb,hospital admissions,orig-only_flow_norm,-4,381.11109365574976
+comb,hospital admissions,only_flow_norm,-4,-80.75776517797942
+comb,Cook County beds in use,orig-only_flow_norm,-4,403.6942000974625
+comb,Cook County beds in use,only_flow_norm,-4,-200.99452967474474
+comb,positive tests,orig-pmmov_norm,-4,268.0643926982925
+comb,positive tests,pmmov_norm,-4,33.49759145369376
+comb,test positivity rate,orig-pmmov_norm,-4,348.17492857511047
+comb,test positivity rate,pmmov_norm,-4,-55.70675228551465
+comb,hospital admissions,orig-pmmov_norm,-4,288.95187248578645
+comb,hospital admissions,pmmov_norm,-4,-109.09469857453485
+comb,Cook County beds in use,orig-pmmov_norm,-4,310.38914737569974
+comb,Cook County beds in use,pmmov_norm,-4,-213.5624221670938
+comb,positive tests,orig-only_bcov_norm,-4,206.73188902628635
+comb,positive tests,only_bcov_norm,-4,25.486849895277714
+comb,test positivity rate,orig-only_bcov_norm,-4,213.42959602279052
+comb,test positivity rate,only_bcov_norm,-4,-118.33794131857678
+comb,hospital admissions,orig-only_bcov_norm,-4,179.90603014572287
+comb,hospital admissions,only_bcov_norm,-4,-145.11094840245562
+comb,Cook County beds in use,orig-only_bcov_norm,-4,183.3843104603128
+comb,Cook County beds in use,only_bcov_norm,-4,-272.2154096730068
+comb,positive tests,orig-bcov_flow_norm,-4,232.98624522306568
+comb,positive tests,bcov_flow_norm,-4,22.840491871006066
+comb,test positivity rate,orig-bcov_flow_norm,-4,230.82464936955353
+comb,test positivity rate,bcov_flow_norm,-4,-125.47230282090379
+comb,hospital admissions,orig-bcov_flow_norm,-4,197.54095866612317
+comb,hospital admissions,bcov_flow_norm,-4,-149.50728667631518
+comb,Cook County beds in use,orig-bcov_flow_norm,-4,200.47292660315713
+comb,Cook County beds in use,bcov_flow_norm,-4,-285.0544917742492
+comb,positive tests,orig-pmmov_bcov_norm,-4,522.7843560945086
+comb,positive tests,pmmov_bcov_norm,-4,8.798470407539753
+comb,test positivity rate,orig-pmmov_bcov_norm,-4,505.0753580137881
+comb,test positivity rate,pmmov_bcov_norm,-4,-118.64145937775413
+comb,hospital admissions,orig-pmmov_bcov_norm,-4,515.0927525555587
+comb,hospital admissions,pmmov_bcov_norm,-4,-150.88875050480976
+comb,Cook County beds in use,orig-pmmov_bcov_norm,-4,511.8050497446913
+comb,Cook County beds in use,pmmov_bcov_norm,-4,-273.89802002741783
+comb,positive tests,orig-pmmov_bcov_flow_norm,-4,550.6261155833226
+comb,positive tests,pmmov_bcov_flow_norm,-4,-1.1229426310252393
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,-4,530.9686589781177
+comb,test positivity rate,pmmov_bcov_flow_norm,-4,-129.17514344424137
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,-4,539.6888857234944
+comb,hospital admissions,pmmov_bcov_flow_norm,-4,-160.37549579863514
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,-4,536.5035034314936
+comb,Cook County beds in use,pmmov_bcov_flow_norm,-4,-292.39066870223485
+comb,positive tests,orig-raw_data,-3,340.30281915717694
+comb,positive tests,raw_data,-3,88.77133664695396
+comb,test positivity rate,orig-raw_data,-3,432.33835900569863
+comb,test positivity rate,raw_data,-3,-26.14784295831646
+comb,hospital admissions,orig-raw_data,-3,352.04613023387367
+comb,hospital admissions,raw_data,-3,-63.4693324690752
+comb,Cook County beds in use,orig-raw_data,-3,377.13182659823735
+comb,Cook County beds in use,raw_data,-3,-177.5186932694636
+comb,positive tests,orig-only_flow_norm,-3,371.3575863352962
+comb,positive tests,only_flow_norm,-3,80.09663189883622
+comb,test positivity rate,orig-only_flow_norm,-3,451.8345542600848
+comb,test positivity rate,only_flow_norm,-3,-42.05402764403118
+comb,hospital admissions,orig-only_flow_norm,-3,377.26507225188993
+comb,hospital admissions,only_flow_norm,-3,-76.52821004063446
+comb,Cook County beds in use,orig-only_flow_norm,-3,400.15191189484506
+comb,Cook County beds in use,only_flow_norm,-3,-201.68739609979878
+comb,positive tests,orig-pmmov_norm,-3,261.18505398714206
+comb,positive tests,pmmov_norm,-3,29.06791242758277
+comb,test positivity rate,orig-pmmov_norm,-3,344.50511475220617
+comb,test positivity rate,pmmov_norm,-3,-62.09390433740111
+comb,hospital admissions,orig-pmmov_norm,-3,284.36453119490443
+comb,hospital admissions,pmmov_norm,-3,-108.02593255937234
+comb,Cook County beds in use,orig-pmmov_norm,-3,304.70254540013275
+comb,Cook County beds in use,pmmov_norm,-3,-219.6054930554127
+comb,positive tests,orig-only_bcov_norm,-3,205.11112550128985
+comb,positive tests,only_bcov_norm,-3,24.395491197191177
+comb,test positivity rate,orig-only_bcov_norm,-3,209.2137747946723
+comb,test positivity rate,only_bcov_norm,-3,-125.65734244864586
+comb,hospital admissions,orig-only_bcov_norm,-3,173.9548888587858
+comb,hospital admissions,only_bcov_norm,-3,-145.35507223943102
+comb,Cook County beds in use,orig-only_bcov_norm,-3,178.10018013188085
+comb,Cook County beds in use,only_bcov_norm,-3,-278.6542445142221
+comb,positive tests,orig-bcov_flow_norm,-3,228.39519375357327
+comb,positive tests,bcov_flow_norm,-3,23.171096851932816
+comb,test positivity rate,orig-bcov_flow_norm,-3,223.7233609918609
+comb,test positivity rate,bcov_flow_norm,-3,-130.4657019663067
+comb,hospital admissions,orig-bcov_flow_norm,-3,191.07228267853475
+comb,hospital admissions,bcov_flow_norm,-3,-148.7789397617513
+comb,Cook County beds in use,orig-bcov_flow_norm,-3,194.21732795263733
+comb,Cook County beds in use,bcov_flow_norm,-3,-289.81316935888265
+comb,positive tests,orig-pmmov_bcov_norm,-3,520.4142468205494
+comb,positive tests,pmmov_bcov_norm,-3,5.257484777505169
+comb,test positivity rate,orig-pmmov_bcov_norm,-3,503.30698241886233
+comb,test positivity rate,pmmov_bcov_norm,-3,-126.20965240617068
+comb,hospital admissions,orig-pmmov_bcov_norm,-3,512.8725493208269
+comb,hospital admissions,pmmov_bcov_norm,-3,-151.61563117211733
+comb,Cook County beds in use,orig-pmmov_bcov_norm,-3,508.83608605038853
+comb,Cook County beds in use,pmmov_bcov_norm,-3,-281.3068962958715
+comb,positive tests,orig-pmmov_bcov_flow_norm,-3,547.2598009925455
+comb,positive tests,pmmov_bcov_flow_norm,-3,-2.651816434326861
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,-3,528.0896108630923
+comb,test positivity rate,pmmov_bcov_flow_norm,-3,-134.0152549861656
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,-3,537.3356743782534
+comb,hospital admissions,pmmov_bcov_flow_norm,-3,-159.87169340301705
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,-3,533.3017175778668
+comb,Cook County beds in use,pmmov_bcov_flow_norm,-3,-298.3288340931023
+comb,positive tests,orig-raw_data,-2,341.30693447513306
+comb,positive tests,raw_data,-2,91.81040379550745
+comb,test positivity rate,orig-raw_data,-2,427.93074252069675
+comb,test positivity rate,raw_data,-2,-30.75257005080448
+comb,hospital admissions,orig-raw_data,-2,348.56430235311814
+comb,hospital admissions,raw_data,-2,-65.59926320148361
+comb,Cook County beds in use,orig-raw_data,-2,374.1374398957719
+comb,Cook County beds in use,raw_data,-2,-179.23623884376332
+comb,positive tests,orig-only_flow_norm,-2,370.38597402176765
+comb,positive tests,only_flow_norm,-2,85.00971397910041
+comb,test positivity rate,orig-only_flow_norm,-2,446.49674358509054
+comb,test positivity rate,only_flow_norm,-2,-44.41238471776683
+comb,hospital admissions,orig-only_flow_norm,-2,372.7368804190203
+comb,hospital admissions,only_flow_norm,-2,-76.6667758737093
+comb,Cook County beds in use,orig-only_flow_norm,-2,396.57534492919615
+comb,Cook County beds in use,only_flow_norm,-2,-201.26287300231763
+comb,positive tests,orig-pmmov_norm,-2,254.983026784137
+comb,positive tests,pmmov_norm,-2,27.49001569528093
+comb,test positivity rate,orig-pmmov_norm,-2,334.9533823979383
+comb,test positivity rate,pmmov_norm,-2,-71.81316190269172
+comb,hospital admissions,orig-pmmov_norm,-2,280.8836485393108
+comb,hospital admissions,pmmov_norm,-2,-111.37661136746931
+comb,Cook County beds in use,orig-pmmov_norm,-2,299.4918823993005
+comb,Cook County beds in use,pmmov_norm,-2,-224.51886040716875
+comb,positive tests,orig-only_bcov_norm,-2,205.889361303182
+comb,positive tests,only_bcov_norm,-2,27.332623639554868
+comb,test positivity rate,orig-only_bcov_norm,-2,199.31791929462645
+comb,test positivity rate,only_bcov_norm,-2,-137.0760007483551
+comb,hospital admissions,orig-only_bcov_norm,-2,174.48310317994697
+comb,hospital admissions,only_bcov_norm,-2,-145.422052301588
+comb,Cook County beds in use,orig-only_bcov_norm,-2,174.76681346135126
+comb,Cook County beds in use,only_bcov_norm,-2,-281.9872055742113
+comb,positive tests,orig-bcov_flow_norm,-2,226.21333971411423
+comb,positive tests,bcov_flow_norm,-2,27.20136526710496
+comb,test positivity rate,orig-bcov_flow_norm,-2,211.86248037305973
+comb,test positivity rate,bcov_flow_norm,-2,-140.11835388160546
+comb,hospital admissions,orig-bcov_flow_norm,-2,189.31443604192248
+comb,hospital admissions,bcov_flow_norm,-2,-147.59950585555055
+comb,Cook County beds in use,orig-bcov_flow_norm,-2,189.58241170020028
+comb,Cook County beds in use,bcov_flow_norm,-2,-291.3515382932661
+comb,positive tests,orig-pmmov_bcov_norm,-2,517.3021837165803
+comb,positive tests,pmmov_bcov_norm,-2,4.995181196737917
+comb,test positivity rate,orig-pmmov_bcov_norm,-2,496.9252229542265
+comb,test positivity rate,pmmov_bcov_norm,-2,-138.81979016534967
+comb,hospital admissions,orig-pmmov_bcov_norm,-2,513.456491079238
+comb,hospital admissions,pmmov_bcov_norm,-2,-152.64900351678705
+comb,Cook County beds in use,orig-pmmov_bcov_norm,-2,506.8144287156815
+comb,Cook County beds in use,pmmov_bcov_norm,-2,-285.80708332237066
+comb,positive tests,orig-pmmov_bcov_flow_norm,-2,543.268673447925
+comb,positive tests,pmmov_bcov_flow_norm,-2,-1.3331225995151499
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,-2,521.2259772287509
+comb,test positivity rate,pmmov_bcov_flow_norm,-2,-144.918457479641
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,-2,537.083739187758
+comb,hospital admissions,pmmov_bcov_flow_norm,-2,-159.34311993075983
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,-2,530.9010194245234
+comb,Cook County beds in use,pmmov_bcov_flow_norm,-2,-301.1739947427435
+comb,positive tests,orig-raw_data,-1,341.6010361171417
+comb,positive tests,raw_data,-1,98.21244287031539
+comb,test positivity rate,orig-raw_data,-1,424.91438437151805
+comb,test positivity rate,raw_data,-1,-17.462326393104945
+comb,hospital admissions,orig-raw_data,-1,350.1724660954993
+comb,hospital admissions,raw_data,-1,-59.19796535747548
+comb,Cook County beds in use,orig-raw_data,-1,371.97822834196495
+comb,Cook County beds in use,raw_data,-1,-180.76767413223968
+comb,positive tests,orig-only_flow_norm,-1,369.4879951521972
+comb,positive tests,only_flow_norm,-1,92.68906493385032
+comb,test positivity rate,orig-only_flow_norm,-1,442.83885659624514
+comb,test positivity rate,only_flow_norm,-1,-28.67966671771103
+comb,hospital admissions,orig-only_flow_norm,-1,372.70646858098894
+comb,hospital admissions,only_flow_norm,-1,-68.00772088815881
+comb,Cook County beds in use,orig-only_flow_norm,-1,393.6488338360864
+comb,Cook County beds in use,only_flow_norm,-1,-200.5409608608462
+comb,positive tests,orig-pmmov_norm,-1,249.06300774785848
+comb,positive tests,pmmov_norm,-1,29.424252008062922
+comb,test positivity rate,orig-pmmov_norm,-1,331.0926579683595
+comb,test positivity rate,pmmov_norm,-1,-59.83148926765011
+comb,hospital admissions,orig-pmmov_norm,-1,282.7477149533105
+comb,hospital admissions,pmmov_norm,-1,-104.1942503980016
+comb,Cook County beds in use,orig-pmmov_norm,-1,294.60554800831574
+comb,Cook County beds in use,pmmov_norm,-1,-229.52320503229237
+comb,positive tests,orig-only_bcov_norm,-1,207.60552655888216
+comb,positive tests,only_bcov_norm,-1,33.903934567166175
+comb,test positivity rate,orig-only_bcov_norm,-1,197.61266232034222
+comb,test positivity rate,only_bcov_norm,-1,-121.99689066230155
+comb,hospital admissions,orig-only_bcov_norm,-1,177.6824068898842
+comb,hospital admissions,only_bcov_norm,-1,-137.0690947812294
+comb,Cook County beds in use,orig-only_bcov_norm,-1,172.77984725526346
+comb,Cook County beds in use,only_bcov_norm,-1,-284.2424691163425
+comb,positive tests,orig-bcov_flow_norm,-1,226.03114363347368
+comb,positive tests,bcov_flow_norm,-1,34.4344242160455
+comb,test positivity rate,orig-bcov_flow_norm,-1,208.58991059073992
+comb,test positivity rate,bcov_flow_norm,-1,-123.52807952925343
+comb,hospital admissions,orig-bcov_flow_norm,-1,189.7312982588062
+comb,hospital admissions,bcov_flow_norm,-1,-137.92460418102644
+comb,Cook County beds in use,orig-bcov_flow_norm,-1,185.9856666969464
+comb,Cook County beds in use,bcov_flow_norm,-1,-291.80791998667894
+comb,positive tests,orig-pmmov_bcov_norm,-1,515.1327697309514
+comb,positive tests,pmmov_bcov_norm,-1,8.299902091033118
+comb,test positivity rate,orig-pmmov_bcov_norm,-1,496.31340226437993
+comb,test positivity rate,pmmov_bcov_norm,-1,-124.41359715385909
+comb,hospital admissions,orig-pmmov_bcov_norm,-1,514.5594760921724
+comb,hospital admissions,pmmov_bcov_norm,-1,-144.20497809400683
+comb,Cook County beds in use,orig-pmmov_bcov_norm,-1,504.925890610169
+comb,Cook County beds in use,pmmov_bcov_norm,-1,-289.55010854583827
+comb,positive tests,orig-pmmov_bcov_flow_norm,-1,540.5651350043142
+comb,positive tests,pmmov_bcov_flow_norm,-1,2.9382754152043162
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,-1,520.0181732635551
+comb,test positivity rate,pmmov_bcov_flow_norm,-1,-128.70897990415995
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,-1,537.1804694244186
+comb,hospital admissions,pmmov_bcov_flow_norm,-1,-148.80918033899718
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,-1,528.5393294617219
+comb,Cook County beds in use,pmmov_bcov_flow_norm,-1,-303.23445724336955
+comb,positive tests,orig-raw_data,0,341.5300113416631
+comb,positive tests,raw_data,0,106.66065630287733
+comb,test positivity rate,orig-raw_data,0,422.10238034437486
+comb,test positivity rate,raw_data,0,-11.322845407286422
+comb,hospital admissions,orig-raw_data,0,347.7409478302725
+comb,hospital admissions,raw_data,0,-55.75852100000543
+comb,Cook County beds in use,orig-raw_data,0,370.00708797304094
+comb,Cook County beds in use,raw_data,0,-180.48728345032134
+comb,positive tests,orig-only_flow_norm,0,367.53077347147075
+comb,positive tests,only_flow_norm,0,102.8990608076723
+comb,test positivity rate,orig-only_flow_norm,0,439.35558235674114
+comb,test positivity rate,only_flow_norm,0,-20.756000554048114
+comb,hospital admissions,orig-only_flow_norm,0,369.37511206691704
+comb,hospital admissions,only_flow_norm,0,-63.00627282345397
+comb,Cook County beds in use,orig-only_flow_norm,0,390.7023366799658
+comb,Cook County beds in use,only_flow_norm,0,-197.59965746459773
+comb,positive tests,orig-pmmov_norm,0,246.05004604949545
+comb,positive tests,pmmov_norm,0,35.36066260788175
+comb,test positivity rate,orig-pmmov_norm,0,325.80411816934713
+comb,test positivity rate,pmmov_norm,0,-56.30930183905639
+comb,hospital admissions,orig-pmmov_norm,0,277.061283260398
+comb,hospital admissions,pmmov_norm,0,-104.04223201956904
+comb,Cook County beds in use,orig-pmmov_norm,0,289.9358119085165
+comb,Cook County beds in use,pmmov_norm,0,-232.6273869236087
+comb,positive tests,orig-only_bcov_norm,0,212.96609882382938
+comb,positive tests,only_bcov_norm,0,44.510144309574684
+comb,test positivity rate,orig-only_bcov_norm,0,191.6408307114591
+comb,test positivity rate,only_bcov_norm,0,-119.15594825983692
+comb,hospital admissions,orig-only_bcov_norm,0,173.0412442570032
+comb,hospital admissions,only_bcov_norm,0,-136.3598629142358
+comb,Cook County beds in use,orig-only_bcov_norm,0,172.06251793863692
+comb,Cook County beds in use,only_bcov_norm,0,-283.12738172937145
+comb,positive tests,orig-bcov_flow_norm,0,228.2305568314082
+comb,positive tests,bcov_flow_norm,0,45.77960013785423
+comb,test positivity rate,orig-bcov_flow_norm,0,201.13639934473827
+comb,test positivity rate,bcov_flow_norm,0,-119.57605010878854
+comb,hospital admissions,orig-bcov_flow_norm,0,183.40298319638327
+comb,hospital admissions,bcov_flow_norm,0,-136.27598592107995
+comb,Cook County beds in use,orig-bcov_flow_norm,0,183.24399441615594
+comb,Cook County beds in use,bcov_flow_norm,0,-288.71069453882535
+comb,positive tests,orig-pmmov_bcov_norm,0,515.9681775792494
+comb,positive tests,pmmov_bcov_norm,0,16.372400446924075
+comb,test positivity rate,orig-pmmov_bcov_norm,0,492.95808920093134
+comb,test positivity rate,pmmov_bcov_norm,0,-122.29199550428746
+comb,hospital admissions,orig-pmmov_bcov_norm,0,511.54690576176694
+comb,hospital admissions,pmmov_bcov_norm,0,-144.8105800896907
+comb,Cook County beds in use,orig-pmmov_bcov_norm,0,503.515164599134
+comb,Cook County beds in use,pmmov_bcov_norm,0,-290.1959520251427
+comb,positive tests,orig-pmmov_bcov_flow_norm,0,540.2130682212279
+comb,positive tests,pmmov_bcov_flow_norm,0,12.644367438907011
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,0,516.2447936191647
+comb,test positivity rate,pmmov_bcov_flow_norm,0,-125.2034565937405
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,0,533.7206652977486
+comb,hospital admissions,pmmov_bcov_flow_norm,0,-148.1312517294724
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,0,526.4943340533891
+comb,Cook County beds in use,pmmov_bcov_flow_norm,0,-301.8373419561573
+comb,positive tests,orig-raw_data,1,341.79992396682417
+comb,positive tests,raw_data,1,114.37138499216962
+comb,test positivity rate,orig-raw_data,1,420.0052843211812
+comb,test positivity rate,raw_data,1,-8.44959330093343
+comb,hospital admissions,orig-raw_data,1,345.5765133790204
+comb,hospital admissions,raw_data,1,-55.00745556139918
+comb,Cook County beds in use,orig-raw_data,1,368.9067712196238
+comb,Cook County beds in use,raw_data,1,-178.91124659578247
+comb,positive tests,orig-only_flow_norm,1,366.5679301953105
+comb,positive tests,only_flow_norm,1,111.65762639795287
+comb,test positivity rate,orig-only_flow_norm,1,434.4398596867221
+comb,test positivity rate,only_flow_norm,1,-13.857102469783968
+comb,hospital admissions,orig-only_flow_norm,1,366.6674867416815
+comb,hospital admissions,only_flow_norm,1,-61.360661547066
+comb,Cook County beds in use,orig-only_flow_norm,1,388.50829168897417
+comb,Cook County beds in use,only_flow_norm,1,-193.4387024202714
+comb,positive tests,orig-pmmov_norm,1,244.05780768649743
+comb,positive tests,pmmov_norm,1,41.16258268285537
+comb,test positivity rate,orig-pmmov_norm,1,322.14397406371313
+comb,test positivity rate,pmmov_norm,1,-55.19221776820484
+comb,hospital admissions,orig-pmmov_norm,1,271.5367161315619
+comb,hospital admissions,pmmov_norm,1,-106.64062672365174
+comb,Cook County beds in use,orig-pmmov_norm,1,285.8931760852746
+comb,Cook County beds in use,pmmov_norm,1,-234.35153656238924
+comb,positive tests,orig-only_bcov_norm,1,218.50599615361807
+comb,positive tests,only_bcov_norm,1,54.40973741857522
+comb,test positivity rate,orig-only_bcov_norm,1,195.05495194214916
+comb,test positivity rate,only_bcov_norm,1,-111.0714849869081
+comb,hospital admissions,orig-only_bcov_norm,1,169.63175294287396
+comb,hospital admissions,only_bcov_norm,1,-137.4616392277477
+comb,Cook County beds in use,orig-only_bcov_norm,1,172.3632125232126
+comb,Cook County beds in use,only_bcov_norm,1,-280.10690034602464
+comb,positive tests,orig-bcov_flow_norm,1,231.7051377208768
+comb,positive tests,bcov_flow_norm,1,56.01817346743121
+comb,test positivity rate,orig-bcov_flow_norm,1,198.52849495793748
+comb,test positivity rate,bcov_flow_norm,1,-109.74005364419747
+comb,hospital admissions,orig-bcov_flow_norm,1,178.9023520513215
+comb,hospital admissions,bcov_flow_norm,1,-136.88892339412916
+comb,Cook County beds in use,orig-bcov_flow_norm,1,181.37260484323008
+comb,Cook County beds in use,bcov_flow_norm,1,-283.89101261234066
+comb,positive tests,orig-pmmov_bcov_norm,1,517.1680682271939
+comb,positive tests,pmmov_bcov_norm,1,24.10264626605931
+comb,test positivity rate,orig-pmmov_bcov_norm,1,493.8302357760717
+comb,test positivity rate,pmmov_bcov_norm,1,-115.55534719768468
+comb,hospital admissions,orig-pmmov_bcov_norm,1,508.9264630864419
+comb,hospital admissions,pmmov_bcov_norm,1,-147.4604385626252
+comb,Cook County beds in use,orig-pmmov_bcov_norm,1,502.2466496273151
+comb,Cook County beds in use,pmmov_bcov_norm,1,-289.1042066348267
+comb,positive tests,orig-pmmov_bcov_flow_norm,1,540.6102876028131
+comb,positive tests,pmmov_bcov_flow_norm,1,21.262080673165997
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,1,514.7591928794583
+comb,test positivity rate,pmmov_bcov_flow_norm,1,-115.86633653614547
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,1,530.8551903585007
+comb,hospital admissions,pmmov_bcov_flow_norm,1,-150.17567922920023
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,1,524.54009264667
+comb,Cook County beds in use,pmmov_bcov_flow_norm,1,-298.75976901311685
+comb,positive tests,orig-raw_data,2,345.08369432512006
+comb,positive tests,raw_data,2,124.09598116836969
+comb,test positivity rate,orig-raw_data,2,418.56831937926563
+comb,test positivity rate,raw_data,2,-7.374005366916776
+comb,hospital admissions,orig-raw_data,2,338.07325033778784
+comb,hospital admissions,raw_data,2,-71.7743923553204
+comb,Cook County beds in use,orig-raw_data,2,368.40954504502895
+comb,Cook County beds in use,raw_data,2,-176.29738371147744
+comb,positive tests,orig-only_flow_norm,2,367.2195237612833
+comb,positive tests,only_flow_norm,2,122.88585019818663
+comb,test positivity rate,orig-only_flow_norm,2,432.00079741363606
+comb,test positivity rate,only_flow_norm,2,-11.525596038261483
+comb,hospital admissions,orig-only_flow_norm,2,357.58864335471435
+comb,hospital admissions,only_flow_norm,2,-76.36058294052475
+comb,Cook County beds in use,orig-only_flow_norm,2,386.8437346116863
+comb,Cook County beds in use,only_flow_norm,2,-188.38628600320078
+comb,positive tests,orig-pmmov_norm,2,244.16120154377882
+comb,positive tests,pmmov_norm,2,49.36612707446875
+comb,test positivity rate,orig-pmmov_norm,2,318.11644767557664
+comb,test positivity rate,pmmov_norm,2,-56.56017412602023
+comb,hospital admissions,orig-pmmov_norm,2,259.98527912761654
+comb,hospital admissions,pmmov_norm,2,-129.71831512989513
+comb,Cook County beds in use,orig-pmmov_norm,2,282.8664297232722
+comb,Cook County beds in use,pmmov_norm,2,-234.36778336183113
+comb,positive tests,orig-only_bcov_norm,2,228.56482510545675
+comb,positive tests,only_bcov_norm,2,68.11189852825169
+comb,test positivity rate,orig-only_bcov_norm,2,194.3361063161516
+comb,test positivity rate,only_bcov_norm,2,-109.54068388626217
+comb,hospital admissions,orig-only_bcov_norm,2,162.78799314979585
+comb,hospital admissions,only_bcov_norm,2,-156.7383071600508
+comb,Cook County beds in use,orig-only_bcov_norm,2,174.51444738163832
+comb,Cook County beds in use,only_bcov_norm,2,-274.3192868831528
+comb,positive tests,orig-bcov_flow_norm,2,237.8441285138848
+comb,positive tests,bcov_flow_norm,2,70.04674144117939
+comb,test positivity rate,orig-bcov_flow_norm,2,195.6537724608869
+comb,test positivity rate,bcov_flow_norm,2,-107.82858886886504
+comb,hospital admissions,orig-bcov_flow_norm,2,168.6492725252191
+comb,hospital admissions,bcov_flow_norm,2,-155.376592142282
+comb,Cook County beds in use,orig-bcov_flow_norm,2,181.24847258413183
+comb,Cook County beds in use,bcov_flow_norm,2,-276.57519162166943
+comb,positive tests,orig-pmmov_bcov_norm,2,519.4139044350577
+comb,positive tests,pmmov_bcov_norm,2,35.21281012323868
+comb,test positivity rate,orig-pmmov_bcov_norm,2,492.29588233451744
+comb,test positivity rate,pmmov_bcov_norm,2,-115.21980435418675
+comb,hospital admissions,orig-pmmov_bcov_norm,2,505.4530534290492
+comb,hospital admissions,pmmov_bcov_norm,2,-169.97592496680102
+comb,Cook County beds in use,orig-pmmov_bcov_norm,2,501.80761263699736
+comb,Cook County beds in use,pmmov_bcov_norm,2,-285.27144311562995
+comb,positive tests,orig-pmmov_bcov_flow_norm,2,541.2823214714031
+comb,positive tests,pmmov_bcov_flow_norm,2,33.7568514415517
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,2,512.4840457783519
+comb,test positivity rate,pmmov_bcov_flow_norm,2,-114.87499012183923
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,2,526.374980989613
+comb,hospital admissions,pmmov_bcov_flow_norm,2,-171.49231585245332
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,2,523.3363639642821
+comb,Cook County beds in use,pmmov_bcov_flow_norm,2,-293.09270912845443
+comb,positive tests,orig-raw_data,3,348.07103894010163
+comb,positive tests,raw_data,3,132.371339162994
+comb,test positivity rate,orig-raw_data,3,415.7275772370434
+comb,test positivity rate,raw_data,3,-6.51857527779282
+comb,hospital admissions,orig-raw_data,3,340.52452257722405
+comb,hospital admissions,raw_data,3,-53.325483250530624
+comb,Cook County beds in use,orig-raw_data,3,368.0955010070187
+comb,Cook County beds in use,raw_data,3,-172.8186886327859
+comb,positive tests,orig-only_flow_norm,3,367.0773901382963
+comb,positive tests,only_flow_norm,3,132.53328001023567
+comb,test positivity rate,orig-only_flow_norm,3,427.03432764269417
+comb,test positivity rate,only_flow_norm,3,-8.487382356246258
+comb,hospital admissions,orig-only_flow_norm,3,358.57970827432973
+comb,hospital admissions,only_flow_norm,3,-56.31159456885371
+comb,Cook County beds in use,orig-only_flow_norm,3,385.2613943317024
+comb,Cook County beds in use,only_flow_norm,3,-182.52599505095975
+comb,positive tests,orig-pmmov_norm,3,242.93631387722792
+comb,positive tests,pmmov_norm,3,55.34637989394662
+comb,test positivity rate,orig-pmmov_norm,3,308.65422215265596
+comb,test positivity rate,pmmov_norm,3,-61.91719728248563
+comb,hospital admissions,orig-pmmov_norm,3,261.5745920336159
+comb,hospital admissions,pmmov_norm,3,-110.66039147250751
+comb,Cook County beds in use,orig-pmmov_norm,3,279.54373852086314
+comb,Cook County beds in use,pmmov_norm,3,-233.9190581819629
+comb,positive tests,orig-only_bcov_norm,3,236.62331982056298
+comb,positive tests,only_bcov_norm,3,79.31089205118042
+comb,test positivity rate,orig-only_bcov_norm,3,193.3547329566254
+comb,test positivity rate,only_bcov_norm,3,-107.46700256572183
+comb,hospital admissions,orig-only_bcov_norm,3,168.68290208220742
+comb,hospital admissions,only_bcov_norm,3,-134.35979835584305
+comb,Cook County beds in use,orig-only_bcov_norm,3,176.72814600764457
+comb,Cook County beds in use,only_bcov_norm,3,-267.7345085687783
+comb,positive tests,orig-bcov_flow_norm,3,241.40245289843165
+comb,positive tests,bcov_flow_norm,3,81.27580062458367
+comb,test positivity rate,orig-bcov_flow_norm,3,190.12208048498644
+comb,test positivity rate,bcov_flow_norm,3,-105.46785849006676
+comb,hospital admissions,orig-bcov_flow_norm,3,172.12946780031666
+comb,hospital admissions,bcov_flow_norm,3,-132.56747508301657
+comb,Cook County beds in use,orig-bcov_flow_norm,3,181.04419844290896
+comb,Cook County beds in use,bcov_flow_norm,3,-268.62541501304065
+comb,positive tests,orig-pmmov_bcov_norm,3,520.5003192651559
+comb,positive tests,pmmov_bcov_norm,3,43.47366742194333
+comb,test positivity rate,orig-pmmov_bcov_norm,3,488.6211081736463
+comb,test positivity rate,pmmov_bcov_norm,3,-116.47954427162915
+comb,hospital admissions,orig-pmmov_bcov_norm,3,506.84345404603835
+comb,hospital admissions,pmmov_bcov_norm,3,-148.01462287632887
+comb,Cook County beds in use,orig-pmmov_bcov_norm,3,501.13603463245204
+comb,Cook County beds in use,pmmov_bcov_norm,3,-280.9866541057073
+comb,positive tests,orig-pmmov_bcov_flow_norm,3,540.5543844935116
+comb,positive tests,pmmov_bcov_flow_norm,3,43.39338920291266
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,3,507.2677352563224
+comb,test positivity rate,pmmov_bcov_flow_norm,3,-115.18377947157512
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,3,526.8844648819814
+comb,hospital admissions,pmmov_bcov_flow_norm,3,-148.3402182841195
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,3,521.854685206991
+comb,Cook County beds in use,pmmov_bcov_flow_norm,3,-287.0368669583444
+comb,positive tests,orig-raw_data,4,352.09711568072214
+comb,positive tests,raw_data,4,142.01499837510994
+comb,test positivity rate,orig-raw_data,4,415.52571139822317
+comb,test positivity rate,raw_data,4,-2.821747853201373
+comb,hospital admissions,orig-raw_data,4,341.2293639566576
+comb,hospital admissions,raw_data,4,-45.36654715597558
+comb,Cook County beds in use,orig-raw_data,4,368.8570945055046
+comb,Cook County beds in use,raw_data,4,-168.0850484820279
+comb,positive tests,orig-only_flow_norm,4,368.6042437465326
+comb,positive tests,only_flow_norm,4,142.97569369599125
+comb,test positivity rate,orig-only_flow_norm,4,425.1106717929807
+comb,test positivity rate,only_flow_norm,4,-3.456782460966906
+comb,hospital admissions,orig-only_flow_norm,4,356.68076518820953
+comb,hospital admissions,only_flow_norm,4,-46.405144795737215
+comb,Cook County beds in use,orig-only_flow_norm,4,384.5434693843433
+comb,Cook County beds in use,only_flow_norm,4,-175.46256221785313
+comb,positive tests,orig-pmmov_norm,4,242.28107855445103
+comb,positive tests,pmmov_norm,4,62.63874807113905
+comb,test positivity rate,orig-pmmov_norm,4,306.00765320026426
+comb,test positivity rate,pmmov_norm,4,-60.25044638699194
+comb,hospital admissions,orig-pmmov_norm,4,267.62241069982576
+comb,hospital admissions,pmmov_norm,4,-98.15046009700097
+comb,Cook County beds in use,orig-pmmov_norm,4,277.5128789542824
+comb,Cook County beds in use,pmmov_norm,4,-231.50424344008377
+comb,positive tests,orig-only_bcov_norm,4,244.7167957676146
+comb,positive tests,only_bcov_norm,4,91.41183270528643
+comb,test positivity rate,orig-only_bcov_norm,4,196.45565805789238
+comb,test positivity rate,only_bcov_norm,4,-100.52827586545925
+comb,hospital admissions,orig-only_bcov_norm,4,180.6847057801234
+comb,hospital admissions,only_bcov_norm,4,-117.2465020419055
+comb,Cook County beds in use,orig-only_bcov_norm,4,180.33651708579418
+comb,Cook County beds in use,only_bcov_norm,4,-259.14299689013694
+comb,positive tests,orig-bcov_flow_norm,4,246.09417389419139
+comb,positive tests,bcov_flow_norm,4,93.13823256759781
+comb,test positivity rate,orig-bcov_flow_norm,4,189.75053840421788
+comb,test positivity rate,bcov_flow_norm,4,-98.71511790282113
+comb,hospital admissions,orig-bcov_flow_norm,4,179.64689086217152
+comb,hospital admissions,bcov_flow_norm,4,-115.24650208802711
+comb,Cook County beds in use,orig-bcov_flow_norm,4,181.95811467417707
+comb,Cook County beds in use,bcov_flow_norm,4,-258.87320519306184
+comb,positive tests,orig-pmmov_bcov_norm,4,521.2901159202886
+comb,positive tests,pmmov_bcov_norm,4,52.66448915693013
+comb,test positivity rate,orig-pmmov_bcov_norm,4,488.530343220844
+comb,test positivity rate,pmmov_bcov_norm,4,-111.1707674593764
+comb,hospital admissions,orig-pmmov_bcov_norm,4,513.6740353447749
+comb,hospital admissions,pmmov_bcov_norm,4,-130.02684901541568
+comb,Cook County beds in use,orig-pmmov_bcov_norm,4,500.9521299247709
+comb,Cook County beds in use,pmmov_bcov_norm,4,-274.536430188164
+comb,positive tests,orig-pmmov_bcov_flow_norm,4,539.9373032275564
+comb,positive tests,pmmov_bcov_flow_norm,4,53.370715129544806
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,4,505.82567325874214
+comb,test positivity rate,pmmov_bcov_flow_norm,4,-109.39897177884302
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,4,531.8018881877222
+comb,hospital admissions,pmmov_bcov_flow_norm,4,-129.0484117334139
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,4,520.7249468471429
+comb,Cook County beds in use,pmmov_bcov_flow_norm,4,-278.80186403680875
+comb,positive tests,orig-raw_data,5,355.406001548713
+comb,positive tests,raw_data,5,150.86873187968524
+comb,test positivity rate,orig-raw_data,5,412.9575206202702
+comb,test positivity rate,raw_data,5,1.9850624028133552
+comb,hospital admissions,orig-raw_data,5,344.5717710759617
+comb,hospital admissions,raw_data,5,-32.12516666199451
+comb,Cook County beds in use,orig-raw_data,5,369.82706600158747
+comb,Cook County beds in use,raw_data,5,-162.63641586441702
+comb,positive tests,orig-only_flow_norm,5,369.52062530573005
+comb,positive tests,only_flow_norm,5,152.38486117023808
+comb,test positivity rate,orig-only_flow_norm,5,421.2670672186199
+comb,test positivity rate,only_flow_norm,5,2.2675428937686775
+comb,hospital admissions,orig-only_flow_norm,5,358.7553052557756
+comb,hospital admissions,only_flow_norm,5,-32.405989142937074
+comb,Cook County beds in use,orig-only_flow_norm,5,383.89625176510424
+comb,Cook County beds in use,only_flow_norm,5,-167.80822943226997
+comb,positive tests,orig-pmmov_norm,5,243.8662602967819
+comb,positive tests,pmmov_norm,5,70.92135187906331
+comb,test positivity rate,orig-pmmov_norm,5,300.8021428337448
+comb,test positivity rate,pmmov_norm,5,-58.25013494070163
+comb,hospital admissions,orig-pmmov_norm,5,265.2382230335148
+comb,hospital admissions,pmmov_norm,5,-88.0051672481635
+comb,Cook County beds in use,orig-pmmov_norm,5,275.0003876801825
+comb,Cook County beds in use,pmmov_norm,5,-228.99135600565558
+comb,positive tests,orig-only_bcov_norm,5,254.16894939213114
+comb,positive tests,only_bcov_norm,5,103.60232433153749
+comb,test positivity rate,orig-only_bcov_norm,5,200.50669543925596
+comb,test positivity rate,only_bcov_norm,5,-90.07797672738559
+comb,hospital admissions,orig-only_bcov_norm,5,185.55280494381282
+comb,hospital admissions,only_bcov_norm,5,-101.879254611909
+comb,Cook County beds in use,orig-only_bcov_norm,5,183.68092147569917
+comb,Cook County beds in use,only_bcov_norm,5,-250.3357954354998
+comb,positive tests,orig-bcov_flow_norm,5,252.33437450501037
+comb,positive tests,bcov_flow_norm,5,104.9165157755724
+comb,test positivity rate,orig-bcov_flow_norm,5,191.19202291998658
+comb,test positivity rate,bcov_flow_norm,5,-88.6225205348045
+comb,hospital admissions,orig-bcov_flow_norm,5,182.63439520724808
+comb,hospital admissions,bcov_flow_norm,5,-99.93615743784937
+comb,Cook County beds in use,orig-bcov_flow_norm,5,182.40689853998992
+comb,Cook County beds in use,bcov_flow_norm,5,-249.14833051830453
+comb,positive tests,orig-pmmov_bcov_norm,5,524.1340362172999
+comb,positive tests,pmmov_bcov_norm,5,62.91465065870602
+comb,test positivity rate,orig-pmmov_bcov_norm,5,489.29319417241993
+comb,test positivity rate,pmmov_bcov_norm,5,-103.33835203805904
+comb,hospital admissions,orig-pmmov_bcov_norm,5,512.3395288313186
+comb,hospital admissions,pmmov_bcov_norm,5,-117.09969312319424
+comb,Cook County beds in use,orig-pmmov_bcov_norm,5,500.30169805790484
+comb,Cook County beds in use,pmmov_bcov_norm,5,-268.2805328179562
+comb,positive tests,orig-pmmov_bcov_flow_norm,5,541.293818337433
+comb,positive tests,pmmov_bcov_flow_norm,5,64.20534496059634
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,5,505.50284422395805
+comb,test positivity rate,pmmov_bcov_flow_norm,5,-101.39935600290016
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,5,529.871080349991
+comb,hospital admissions,pmmov_bcov_flow_norm,5,-115.80514761048892
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,5,519.0647506322698
+comb,Cook County beds in use,pmmov_bcov_flow_norm,5,-270.8799698848685
+comb,positive tests,orig-raw_data,6,360.73024201281896
+comb,positive tests,raw_data,6,159.63015449242698
+comb,test positivity rate,orig-raw_data,6,417.1904288455685
+comb,test positivity rate,raw_data,6,4.51383559732335
+comb,hospital admissions,orig-raw_data,6,346.2057973520632
+comb,hospital admissions,raw_data,6,-16.304245234582595
+comb,Cook County beds in use,orig-raw_data,6,370.9148926226933
+comb,Cook County beds in use,raw_data,6,-156.68477514410313
+comb,positive tests,orig-only_flow_norm,6,371.8741327173349
+comb,positive tests,only_flow_norm,6,161.5238703205033
+comb,test positivity rate,orig-only_flow_norm,6,423.67957028920955
+comb,test positivity rate,only_flow_norm,6,5.5114625747365835
+comb,hospital admissions,orig-only_flow_norm,6,358.4656986046183
+comb,hospital admissions,only_flow_norm,6,-15.59006740836162
+comb,Cook County beds in use,orig-only_flow_norm,6,383.34347495368536
+comb,Cook County beds in use,only_flow_norm,6,-159.95299857504563
+comb,positive tests,orig-pmmov_norm,6,245.25477329911064
+comb,positive tests,pmmov_norm,6,78.33011065209791
+comb,test positivity rate,orig-pmmov_norm,6,302.44498369790506
+comb,test positivity rate,pmmov_norm,6,-56.74612606270591
+comb,hospital admissions,orig-pmmov_norm,6,261.2564651146022
+comb,hospital admissions,pmmov_norm,6,-75.81232339501037
+comb,Cook County beds in use,orig-pmmov_norm,6,272.79799768128794
+comb,Cook County beds in use,pmmov_norm,6,-225.69724234178614
+comb,positive tests,orig-only_bcov_norm,6,263.1876633197214
+comb,positive tests,only_bcov_norm,6,115.0946379652521
+comb,test positivity rate,orig-only_bcov_norm,6,208.80835859561387
+comb,test positivity rate,only_bcov_norm,6,-82.84249967925905
+comb,hospital admissions,orig-only_bcov_norm,6,195.6892851069897
+comb,hospital admissions,only_bcov_norm,6,-79.78199039856929
+comb,Cook County beds in use,orig-only_bcov_norm,6,186.8764761573135
+comb,Cook County beds in use,only_bcov_norm,6,-241.33820853032614
+comb,positive tests,orig-bcov_flow_norm,6,257.5270954122958
+comb,positive tests,bcov_flow_norm,6,115.67949529527118
+comb,test positivity rate,orig-bcov_flow_norm,6,196.33123874965202
+comb,test positivity rate,bcov_flow_norm,6,-81.93357279652253
+comb,hospital admissions,orig-bcov_flow_norm,6,189.78071888577085
+comb,hospital admissions,bcov_flow_norm,6,-78.12022182438034
+comb,Cook County beds in use,orig-bcov_flow_norm,6,182.70055606412666
+comb,Cook County beds in use,bcov_flow_norm,6,-239.57798872392948
+comb,positive tests,orig-pmmov_bcov_norm,6,525.5547242061002
+comb,positive tests,pmmov_bcov_norm,6,71.9892648594273
+comb,test positivity rate,orig-pmmov_bcov_norm,6,490.36238833327667
+comb,test positivity rate,pmmov_bcov_norm,6,-97.63525829774437
+comb,hospital admissions,orig-pmmov_bcov_norm,6,513.3159394478805
+comb,hospital admissions,pmmov_bcov_norm,6,-99.03121627004623
+comb,Cook County beds in use,orig-pmmov_bcov_norm,6,499.6892599130103
+comb,Cook County beds in use,pmmov_bcov_norm,6,-261.7067251273703
+comb,positive tests,orig-pmmov_bcov_flow_norm,6,540.9874732742592
+comb,positive tests,pmmov_bcov_flow_norm,6,73.7471372516593
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,6,505.17759979467746
+comb,test positivity rate,pmmov_bcov_flow_norm,6,-95.6360182838024
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,6,529.68826520464
+comb,hospital admissions,pmmov_bcov_flow_norm,6,-97.38772478181193
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,6,517.4197259573239
+comb,Cook County beds in use,pmmov_bcov_flow_norm,6,-262.8655120763814
+comb,positive tests,orig-raw_data,7,365.1136752786723
+comb,positive tests,raw_data,7,169.15881136897815
+comb,test positivity rate,orig-raw_data,7,420.06763949530034
+comb,test positivity rate,raw_data,7,15.441863578056427
+comb,hospital admissions,orig-raw_data,7,349.56722779427
+comb,hospital admissions,raw_data,7,-5.780841461614841
+comb,Cook County beds in use,orig-raw_data,7,372.60984839598893
+comb,Cook County beds in use,raw_data,7,-150.0700222433419
+comb,positive tests,orig-only_flow_norm,7,373.71684550192913
+comb,positive tests,only_flow_norm,7,171.1588105657446
+comb,test positivity rate,orig-only_flow_norm,7,423.5584456325528
+comb,test positivity rate,only_flow_norm,7,17.270500537391968
+comb,hospital admissions,orig-only_flow_norm,7,360.4658118952077
+comb,hospital admissions,only_flow_norm,7,-4.609514477862831
+comb,Cook County beds in use,orig-only_flow_norm,7,383.33122257683635
+comb,Cook County beds in use,only_flow_norm,7,-151.72755717104144
+comb,positive tests,orig-pmmov_norm,7,246.67104577025532
+comb,positive tests,pmmov_norm,7,86.69427246144869
+comb,test positivity rate,orig-pmmov_norm,7,302.0378815712471
+comb,test positivity rate,pmmov_norm,7,-47.565693191611444
+comb,hospital admissions,orig-pmmov_norm,7,260.8428740486289
+comb,hospital admissions,pmmov_norm,7,-66.93247954364494
+comb,Cook County beds in use,orig-pmmov_norm,7,271.3112593334703
+comb,Cook County beds in use,pmmov_norm,7,-221.3423545078457
+comb,positive tests,orig-only_bcov_norm,7,273.2361176830467
+comb,positive tests,only_bcov_norm,7,127.77628647006247
+comb,test positivity rate,orig-only_bcov_norm,7,218.5604649003792
+comb,test positivity rate,only_bcov_norm,7,-65.13092018482371
+comb,hospital admissions,orig-only_bcov_norm,7,204.6890476049134
+comb,hospital admissions,only_bcov_norm,7,-64.56445401544079
+comb,Cook County beds in use,orig-only_bcov_norm,7,191.0012377596214
+comb,Cook County beds in use,only_bcov_norm,7,-231.20674288957446
+comb,positive tests,orig-bcov_flow_norm,7,264.4189323786701
+comb,positive tests,bcov_flow_norm,7,127.5477977762223
+comb,test positivity rate,orig-bcov_flow_norm,7,200.71734890924574
+comb,test positivity rate,bcov_flow_norm,7,-65.82628806080334
+comb,hospital admissions,orig-bcov_flow_norm,7,196.91280507085378
+comb,hospital admissions,bcov_flow_norm,7,-63.152074386364916
+comb,Cook County beds in use,orig-bcov_flow_norm,7,183.88352025355732
+comb,Cook County beds in use,bcov_flow_norm,7,-229.21419592479526
+comb,positive tests,orig-pmmov_bcov_norm,7,528.0981989682781
+comb,positive tests,pmmov_bcov_norm,7,82.0861429241013
+comb,test positivity rate,orig-pmmov_bcov_norm,7,492.0472295954599
+comb,test positivity rate,pmmov_bcov_norm,7,-82.47355536771181
+comb,hospital admissions,orig-pmmov_bcov_norm,7,514.5823390287068
+comb,hospital admissions,pmmov_bcov_norm,7,-86.32888893409915
+comb,Cook County beds in use,orig-pmmov_bcov_norm,7,499.4049306960697
+comb,Cook County beds in use,pmmov_bcov_norm,7,-253.94782345292504
+comb,positive tests,orig-pmmov_bcov_flow_norm,7,541.9697821938007
+comb,positive tests,pmmov_bcov_flow_norm,7,84.04356448111685
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,7,504.4805732185652
+comb,test positivity rate,pmmov_bcov_flow_norm,7,-80.81391525347965
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,7,530.1494566149228
+comb,hospital admissions,pmmov_bcov_flow_norm,7,-84.54908302108117
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,7,516.0462750634688
+comb,Cook County beds in use,pmmov_bcov_flow_norm,7,-253.94043526607732
+comb,positive tests,orig-raw_data,8,373.7039280736824
+comb,positive tests,raw_data,8,185.46244406961864
+comb,test positivity rate,orig-raw_data,8,422.6398694104296
+comb,test positivity rate,raw_data,8,14.328404021031474
+comb,hospital admissions,orig-raw_data,8,355.6793943687227
+comb,hospital admissions,raw_data,8,6.44177744623903
+comb,Cook County beds in use,orig-raw_data,8,374.2983295096029
+comb,Cook County beds in use,raw_data,8,-143.35011148215392
+comb,positive tests,orig-only_flow_norm,8,378.82108008353623
+comb,positive tests,only_flow_norm,8,187.27603271282703
+comb,test positivity rate,orig-only_flow_norm,8,425.2238653190075
+comb,test positivity rate,only_flow_norm,8,16.254883836580575
+comb,hospital admissions,orig-only_flow_norm,8,363.7506087698588
+comb,hospital admissions,only_flow_norm,8,8.210824788878199
+comb,Cook County beds in use,orig-only_flow_norm,8,383.57630898042305
+comb,Cook County beds in use,only_flow_norm,8,-143.88775574967633
+comb,positive tests,orig-pmmov_norm,8,252.8403526627418
+comb,positive tests,pmmov_norm,8,103.12905162815366
+comb,test positivity rate,orig-pmmov_norm,8,303.4672467340547
+comb,test positivity rate,pmmov_norm,8,-49.051351026724774
+comb,hospital admissions,orig-pmmov_norm,8,265.4581963698116
+comb,hospital admissions,pmmov_norm,8,-53.65802686704478
+comb,Cook County beds in use,orig-pmmov_norm,8,270.6668246017007
+comb,Cook County beds in use,pmmov_norm,8,-215.94695635267215
+comb,positive tests,orig-only_bcov_norm,8,290.8185976568634
+comb,positive tests,only_bcov_norm,8,149.24067675444712
+comb,test positivity rate,orig-only_bcov_norm,8,227.37399561256848
+comb,test positivity rate,only_bcov_norm,8,-60.365438175056966
+comb,hospital admissions,orig-only_bcov_norm,8,216.8052822958532
+comb,hospital admissions,only_bcov_norm,8,-46.78016796005386
+comb,Cook County beds in use,orig-only_bcov_norm,8,195.00473128127567
+comb,Cook County beds in use,only_bcov_norm,8,-221.2119630821777
+comb,positive tests,orig-bcov_flow_norm,8,278.0412465785291
+comb,positive tests,bcov_flow_norm,8,147.7610585832964
+comb,test positivity rate,orig-bcov_flow_norm,8,208.32152877175008
+comb,test positivity rate,bcov_flow_norm,8,-61.338946977443015
+comb,hospital admissions,orig-bcov_flow_norm,8,205.0768408456205
+comb,hospital admissions,bcov_flow_norm,8,-46.13135105752281
+comb,Cook County beds in use,orig-bcov_flow_norm,8,185.45322713446978
+comb,Cook County beds in use,bcov_flow_norm,8,-219.27110225793706
+comb,positive tests,orig-pmmov_bcov_norm,8,533.77072349338
+comb,positive tests,pmmov_bcov_norm,8,100.80218015483763
+comb,test positivity rate,orig-pmmov_bcov_norm,8,494.68501947467837
+comb,test positivity rate,pmmov_bcov_norm,8,-79.33478936219024
+comb,hospital admissions,orig-pmmov_bcov_norm,8,517.8301801228486
+comb,hospital admissions,pmmov_bcov_norm,8,-69.54329718790609
+comb,Cook County beds in use,orig-pmmov_bcov_norm,8,499.5164776214528
+comb,Cook County beds in use,pmmov_bcov_norm,8,-245.70891132952454
+comb,positive tests,orig-pmmov_bcov_flow_norm,8,545.4290953059428
+comb,positive tests,pmmov_bcov_flow_norm,8,102.77776280223384
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,8,506.33230966768235
+comb,test positivity rate,pmmov_bcov_flow_norm,8,-77.72665385500943
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,8,531.6596485026741
+comb,hospital admissions,pmmov_bcov_flow_norm,8,-67.5485010035419
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,8,515.2168113027908
+comb,Cook County beds in use,pmmov_bcov_flow_norm,8,-244.9281470517634
+comb,positive tests,orig-raw_data,9,380.55973306899875
+comb,positive tests,raw_data,9,199.55044545480848
+comb,test positivity rate,orig-raw_data,9,425.63616909164773
+comb,test positivity rate,raw_data,9,22.297423989479285
+comb,hospital admissions,orig-raw_data,9,359.8139630090185
+comb,hospital admissions,raw_data,9,10.698004603500294
+comb,Cook County beds in use,orig-raw_data,9,377.0042511662441
+comb,Cook County beds in use,raw_data,9,-134.3418108522684
+comb,positive tests,orig-only_flow_norm,9,382.1910502669267
+comb,positive tests,only_flow_norm,9,200.79418067620372
+comb,test positivity rate,orig-only_flow_norm,9,425.1014561274777
+comb,test positivity rate,only_flow_norm,9,24.195206217151167
+comb,hospital admissions,orig-only_flow_norm,9,365.4824407162529
+comb,hospital admissions,only_flow_norm,9,12.682247852246405
+comb,Cook County beds in use,orig-only_flow_norm,9,384.56340799417944
+comb,Cook County beds in use,only_flow_norm,9,-133.84371649371235
+comb,positive tests,orig-pmmov_norm,9,256.84132894646007
+comb,positive tests,pmmov_norm,9,116.44068702427387
+comb,test positivity rate,orig-pmmov_norm,9,305.20139129293966
+comb,test positivity rate,pmmov_norm,9,-41.16434860502909
+comb,hospital admissions,orig-pmmov_norm,9,268.12143213496404
+comb,hospital admissions,pmmov_norm,9,-49.09861620468564
+comb,Cook County beds in use,orig-pmmov_norm,9,270.37499342967124
+comb,Cook County beds in use,pmmov_norm,9,-208.41067263444836
+comb,positive tests,orig-only_bcov_norm,9,304.55293969493334
+comb,positive tests,only_bcov_norm,9,166.8374435498108
+comb,test positivity rate,orig-only_bcov_norm,9,238.6565279916456
+comb,test positivity rate,only_bcov_norm,9,-45.00559939221182
+comb,hospital admissions,orig-only_bcov_norm,9,227.0823178364268
+comb,hospital admissions,only_bcov_norm,9,-37.362665172466905
+comb,Cook County beds in use,orig-only_bcov_norm,9,200.11352537537482
+comb,Cook County beds in use,only_bcov_norm,9,-208.5275702823168
+comb,positive tests,orig-bcov_flow_norm,9,287.81656485843496
+comb,positive tests,bcov_flow_norm,9,163.68629273650436
+comb,test positivity rate,orig-bcov_flow_norm,9,214.4439671490179
+comb,test positivity rate,bcov_flow_norm,9,-48.26277886261312
+comb,hospital admissions,orig-bcov_flow_norm,9,212.06756691864302
+comb,hospital admissions,bcov_flow_norm,9,-37.529329356669905
+comb,Cook County beds in use,orig-bcov_flow_norm,9,187.74071943463582
+comb,Cook County beds in use,bcov_flow_norm,9,-206.91104168749587
+comb,positive tests,orig-pmmov_bcov_norm,9,537.939677946206
+comb,positive tests,pmmov_bcov_norm,9,115.54748447250222
+comb,test positivity rate,orig-pmmov_bcov_norm,9,498.3496154891667
+comb,test positivity rate,pmmov_bcov_norm,9,-65.9452994562048
+comb,hospital admissions,orig-pmmov_bcov_norm,9,520.7302755537519
+comb,hospital admissions,pmmov_bcov_norm,9,-61.685084820618385
+comb,Cook County beds in use,orig-pmmov_bcov_norm,9,499.5641873043577
+comb,Cook County beds in use,pmmov_bcov_norm,9,-235.06768906162836
+comb,positive tests,orig-pmmov_bcov_flow_norm,9,547.3947272098259
+comb,positive tests,pmmov_bcov_flow_norm,9,117.23867677010014
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,9,507.4532199962202
+comb,test positivity rate,pmmov_bcov_flow_norm,9,-65.33181526060741
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,9,533.0491156369574
+comb,hospital admissions,pmmov_bcov_flow_norm,9,-59.73339482331346
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,9,514.1483281972558
+comb,Cook County beds in use,pmmov_bcov_flow_norm,9,-233.63184232748597
+comb,positive tests,orig-raw_data,10,388.2741223400169
+comb,positive tests,raw_data,10,213.22158960808065
+comb,test positivity rate,orig-raw_data,10,427.2273624362979
+comb,test positivity rate,raw_data,10,26.40937480033142
+comb,hospital admissions,orig-raw_data,10,365.8427391123556
+comb,hospital admissions,raw_data,10,27.483910863696792
+comb,Cook County beds in use,orig-raw_data,10,380.28334404999816
+comb,Cook County beds in use,raw_data,10,-125.00678796785212
+comb,positive tests,orig-only_flow_norm,10,386.6987536750619
+comb,positive tests,only_flow_norm,10,213.63122774685223
+comb,test positivity rate,orig-only_flow_norm,10,426.0337908457649
+comb,test positivity rate,only_flow_norm,10,28.21550614495095
+comb,hospital admissions,orig-only_flow_norm,10,369.53637823570443
+comb,hospital admissions,only_flow_norm,10,29.45231246653202
+comb,Cook County beds in use,orig-only_flow_norm,10,386.32893242647276
+comb,Cook County beds in use,only_flow_norm,10,-123.84317308235484
+comb,positive tests,orig-pmmov_norm,10,264.58177586171337
+comb,positive tests,pmmov_norm,10,131.54393308846306
+comb,test positivity rate,orig-pmmov_norm,10,307.5742068727877
+comb,test positivity rate,pmmov_norm,10,-35.85491349098936
+comb,hospital admissions,orig-pmmov_norm,10,272.5959316337244
+comb,hospital admissions,pmmov_norm,10,-31.47872920150553
+comb,Cook County beds in use,orig-pmmov_norm,10,271.25916213776793
+comb,Cook County beds in use,pmmov_norm,10,-199.66346173095383
+comb,positive tests,orig-only_bcov_norm,10,318.6832227381682
+comb,positive tests,only_bcov_norm,10,183.9782824189142
+comb,test positivity rate,orig-only_bcov_norm,10,242.96711921886435
+comb,test positivity rate,only_bcov_norm,10,-38.44023669935973
+comb,hospital admissions,orig-only_bcov_norm,10,237.90130570923304
+comb,hospital admissions,only_bcov_norm,10,-16.713812889271935
+comb,Cook County beds in use,orig-only_bcov_norm,10,206.40011382795876
+comb,Cook County beds in use,only_bcov_norm,10,-194.93248303273901
+comb,positive tests,orig-bcov_flow_norm,10,298.53402552551006
+comb,positive tests,bcov_flow_norm,10,179.12896033703453
+comb,test positivity rate,orig-bcov_flow_norm,10,217.84121161092708
+comb,test positivity rate,bcov_flow_norm,10,-42.158542316922876
+comb,hospital admissions,orig-bcov_flow_norm,10,220.4475536807771
+comb,hospital admissions,bcov_flow_norm,10,-17.738817625807542
+comb,Cook County beds in use,orig-bcov_flow_norm,10,191.67982033477097
+comb,Cook County beds in use,bcov_flow_norm,10,-193.77617442588473
+comb,positive tests,orig-pmmov_bcov_norm,10,543.5393303377939
+comb,positive tests,pmmov_bcov_norm,10,131.6718402816482
+comb,test positivity rate,orig-pmmov_bcov_norm,10,500.37755408332873
+comb,test positivity rate,pmmov_bcov_norm,10,-59.22355513841751
+comb,hospital admissions,orig-pmmov_bcov_norm,10,523.6166728151687
+comb,hospital admissions,pmmov_bcov_norm,10,-41.84548767965521
+comb,Cook County beds in use,orig-pmmov_bcov_norm,10,500.3043957652669
+comb,Cook County beds in use,pmmov_bcov_norm,10,-223.1327347284797
+comb,positive tests,orig-pmmov_bcov_flow_norm,10,550.9021285245985
+comb,positive tests,pmmov_bcov_flow_norm,10,132.8178036443568
+comb,test positivity rate,orig-pmmov_bcov_flow_norm,10,508.9110535312991
+comb,test positivity rate,pmmov_bcov_flow_norm,10,-58.87668168555081
+comb,hospital admissions,orig-pmmov_bcov_flow_norm,10,534.6902084483006
+comb,hospital admissions,pmmov_bcov_flow_norm,10,-40.081892297774516
+comb,Cook County beds in use,orig-pmmov_bcov_flow_norm,10,513.8753507181365
+comb,Cook County beds in use,pmmov_bcov_flow_norm,10,-221.35227224371636
