@@ -10,17 +10,17 @@ This notebook fits models using available wastewater and clinical data.  Note th
 
 Note that there are two versions of each aic and parameter dataframe files included in the data folder:  
 1. A set generated using the included available data:  
-  - fitparams_qpcr_fits_230601.csv  
-  - fitaic_qpcr_fits_230601.csv  
-  - fitparams_qpcr_fits_trainearly_230601.csv  
-  - fitaic_qpcr_fits_trainearly_230601.csv  
-  - fitfullaic_qpcr_fits_trainearly_230601.csv  
+  - fitparams_qpcr_fits_230825.csv  
+  - fitaic_qpcr_fits_230825.csv  
+  - fitparams_qpcr_fits_trainearly_230825.csv  
+  - fitaic_qpcr_fits_trainearly_230825.csv  
+  - fitfullaic_qpcr_fits_trainearly_230825.csv  
 2. A set generated using the sensitive data:  
-  - fitparams_qpcr_fits_sensitive_230601.csv  
-  - fitaic_qpcr_fits_sensitive_230601.csv  
-  - fitparams_qpcr_fits_trainearly_sensitive_230601.csv  
-  - fitaic_qpcr_fits_trainearly_sensitive_230601.csv  
-  - fitfullaic_qpcr_fits_trainearly_sensitive_230601.csv  
+  - fitparams_qpcr_fits_sensitive_230825.csv  
+  - fitaic_qpcr_fits_sensitive_230825.csv  
+  - fitparams_qpcr_fits_trainearly_sensitive_230825.csv  
+  - fitaic_qpcr_fits_trainearly_sensitive_230825.csv  
+  - fitfullaic_qpcr_fits_trainearly_sensitive_230825.csv  
 
 ## qPCR_Figures.ipynb
 This notebook generates the figures included in the manuscript as well as most of those in the supplement.  At the beginning of this file, one can specify if they want to use the aic and parameter files generated from the sensitive data or from the included public data. 
