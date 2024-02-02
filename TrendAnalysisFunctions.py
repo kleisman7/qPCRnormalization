@@ -17,6 +17,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 from matplotlib.patches import Rectangle
 
 from sklearn import datasets, linear_model
+from sklearn.metrics import mean_squared_error
 import statsmodels.api as sm
 import scipy as sp
 from scipy import stats
@@ -58,7 +59,8 @@ def CalculateModelFitsFromParams(wbe,paramdf,ww_lod,wwtp,lag,useprev_single,scal
     if 'flow' in wbe.columns.tolist():
         wbe['orig-only_flow_norm'] = wbe.raw_data*wbe.flow
     wbe['orig-raw_data'] = wbe.raw_data
-    wbe['orig_raw'] = wbe.raw_data
+    if 'orig_raw' not in wbe.columns.tolist():
+        wbe['orig_raw'] = wbe.raw_data
     wbe.loc[(wbe.orig_raw<ww_lod),'orig_raw'] = wbe[wbe.orig_raw<ww_lod].orig_raw.iloc[0]/2
 #     print(wwtp,paramdf.feature.unique())
     for fit in paramdf[(paramdf.lag==lag) & (paramdf.prevind==useprev_single)].fit.unique():
@@ -71,8 +73,9 @@ def CalculateModelFitsFromParams(wbe,paramdf,ww_lod,wwtp,lag,useprev_single,scal
 #                         plt.plot(wbe[wbe.catchment==catch].date,wbe[wbe.catchment==catch][fit])
 #                         plt.show()
                     if catch in paramdf[mask].feature.unique(): # loop over catchments that have features in the combination.
-                        wbe.loc[(wbe.catchment==catch),fit]=wbe.loc[(wbe.catchment==catch),fit]*10**(-paramdf[
-                            mask & (paramdf.feature==catch)].params.iloc[0])
+                        if scaleparam:
+                            wbe.loc[(wbe.catchment==catch),fit]=wbe.loc[(wbe.catchment==catch),fit]*10**(-paramdf[
+                                mask & (paramdf.feature==catch)].params.iloc[0])
                 if 'neronly' in paramdf[mask].feature.unique():
                     wbe.loc[(wbe.neronly),fit] = wbe.loc[(wbe.neronly),fit]*10**(-paramdf[
                         mask & (paramdf.feature=='neronly')].params.iloc[0])
@@ -86,21 +89,24 @@ def CalculateModelFitsFromParams(wbe,paramdf,ww_lod,wwtp,lag,useprev_single,scal
                         if catch in paramdf[mask].feature.unique(): # loop over catchments that have features in the combination.
                             wbe.loc[(wbe.catchment==catch),fit]=10**(paramdf[
                                 mask & (paramdf.feature==catch)].params.iloc[0])
-                    if 'neronly' in paramdf[mask].feature.unique():
-                        wbe.loc[(wbe.neronly),fit] = wbe.loc[(wbe.neronly),fit]*10**(paramdf[
-                            mask & (paramdf.feature=='neronly')].params.iloc[0])
+                if 'neronly' in paramdf[mask].feature.unique():
+                    wbe.loc[(wbe.neronly),fit] = wbe.loc[(wbe.neronly),fit]*10**(paramdf[
+                        mask & (paramdf.feature=='neronly')].params.iloc[0])
                 for feature in paramdf[mask].feature.unique(): 
-                    if (feature not in wbe.catchment.unique()) and (feature!='neronly'): # Now loop over the other features.
+                    if ((feature not in wbe.catchment.unique()) and 
+                        (feature!='neronly') and 
+                        (feature.replace('raw_data','orig_raw') in wbe.columns)): # Now loop over the other features.
                         wbe[fit]=wbe[fit]*wbe[feature.replace('raw_data','orig_raw')]**(paramdf[
                             mask & (paramdf.feature==feature)].params.iloc[0])
         elif wwtp=='catch':
             mask = (paramdf.lag==lag) & (paramdf.prevind==useprev_single) & (paramdf.fit==fit)
             if 'orig-' in fit:
                 for catch in wbe.catchment.unique():
-                    if catch in paramdf[mask].wwtp.unique(): # loop over catchments that have been fit.
+                    if scaleparam:
+                        if catch in paramdf[mask].wwtp.unique(): # loop over catchments that have been fit.
 #                         print(catch,paramdf[mask & (paramdf.wwtp==catch) & (paramdf.feature==fit.replace('orig-',''))].params)
-                        wbe.loc[(wbe.catchment==catch),fit]=wbe.loc[(wbe.catchment==catch),fit]*10**(-paramdf[
-                            mask & (paramdf.wwtp==catch) & (paramdf.feature==fit.replace('orig-',''))].params.iloc[0]) # I added this neg later... could be wrong?
+                            wbe.loc[(wbe.catchment==catch),fit]=wbe.loc[(wbe.catchment==catch),fit]*10**(-paramdf[
+                                mask & (paramdf.wwtp==catch) & (paramdf.feature==fit.replace('orig-',''))].params.iloc[0]) # I added this neg later... could be wrong?
                         mask2 = (paramdf.wwtp==catch)
                     else:
                         mask2 = (paramdf.wwtp=='comb')
@@ -209,7 +215,7 @@ def discrete_cmap(base_cmap=None):
     cmap_name = base.name + str(8)
     return base.from_list(cmap_name, color_list, 8)
 
-def crosscorrW(datax, datay, lags=[0]):
+def crosscorrW(datax, datay, lags=[0],mergers=['date'],rmse = False):
     """
     Calculate the cross correlation between two timeseries with given timelag,but this one can't have a catchment column.
     Arguments:
@@ -231,14 +237,13 @@ def crosscorrW(datax, datay, lags=[0]):
         dataz = datay.copy()
         dataz.date -= datetime.timedelta(days=int(lag))
         # merge data x and dataz (shifted datay)
-        mydf0 = pd.merge(datax,dataz,on='date',how='inner')
+        mydf0 = pd.merge(datax,dataz,on=mergers,how='inner')
         mydf0.dropna(inplace=True)
-#         mydf0.info()
-#         plt.plot(mydf0.date,mydf0[mydf0.columns[1]])
-#         plt.plot(mydf0.date,mydf0[mydf0.columns[2]])
-#         plt.show()
-        mydf0.drop(['date'],axis=1,inplace=True)
-        mycors.append(mydf0.corr().values[0][1])
+        mydf0.drop(mergers,axis=1,inplace=True)
+        if rmse:
+            mycors.append(mean_squared_error(mydf0[mydf0.columns[0]],mydf0[mydf0.columns[1]],squared=False))
+        else:
+            mycors.append(mydf0.corr().values[0][1])
     return np.array(mycors)
 
 
@@ -364,7 +369,7 @@ def FormatDatesNicely(surgedf2):
     newsurgedf['b-a'] = newsurgedf.admissions-newsurgedf.bedsused
     newsurgedf['w-c'] = newsurgedf.cases-newsurgedf.wastewater
     newsurgedf['w-b'] = newsurgedf.bedsused-newsurgedf.wastewater
-    display(newsurgedf)
+#     display(newsurgedf)
 
     print('Wastewater leads admissions in',len(newsurgedf[(newsurgedf.surge.str.contains('surge')) & (newsurgedf['w-a']>datetime.timedelta(days=0))]),
           'surges by up to',max(newsurgedf[(newsurgedf.surge.str.contains('surge'))]['w-a']).days,'days, and lags admissions in',

@@ -281,8 +281,7 @@ def FitModelParameters(wbe,prevdf,fitwwtps,useprevs,trymodels,whatiscomb,myend,l
                             mydf2 = pd.concat([mydf2,pd.get_dummies(mydf2.catchment)],axis=1)
                             if addparam:
                                 mydf2[boolfeat] = mydf2[boolfeat].astype(int)
-                            mydf2.replace(0,100,inplace=True)
-                            mydf2.replace(1,10,inplace=True)
+                            mydf2[newcomb] = mydf2[newcomb].replace([0,1],[100,10])
                             comb = comb[:-1]+newcomb
                         else:
                             datax = wbe[mask & (wbe.date+datetime.timedelta(days=int(max(lags)+lag0))<mydate)][combfull]
@@ -292,8 +291,7 @@ def FitModelParameters(wbe,prevdf,fitwwtps,useprevs,trymodels,whatiscomb,myend,l
                             mydf2 = pd.merge(datax,dataz,on=['date','catchment'],how='inner')
                             if addparam:
                                 mydf2[boolfeat] = mydf2[boolfeat].astype(int)
-                                mydf2.replace(0,100,inplace=True)
-                                mydf2.replace(1,10,inplace=True)
+                                mydf2[newcomb] = mydf2[newcomb].replace([0,1],[100,10])
                                 comb = comb[:-1]+[boolfeat]
                             else:
                                 comb = comb[:-1]
@@ -313,13 +311,13 @@ def FitModelParameters(wbe,prevdf,fitwwtps,useprevs,trymodels,whatiscomb,myend,l
 #                             target = np.log10(mydf2[correction]/mydf2[useprev])
                             target = np.log10(mdf3[correction]/mdf3[useprev])
                             if catch=='comb':
-                                features.replace(2,0,inplace=True)
+                                features[newcomb] = features[newcomb].replace(2,0)
                                 comb = ['date'] + newcomb
                                 features = features[comb[1:]].astype('float64')
                             else:
                                 features = sm.add_constant(features)
                                 if addparam:
-                                    features.replace(2,0,inplace=True)
+                                    features[newcomb] = features[newcomb].replace(2,0)
                                     features = features[['const',boolfeat]]
                                 else:
                                     features = features[['const']]
@@ -327,12 +325,12 @@ def FitModelParameters(wbe,prevdf,fitwwtps,useprevs,trymodels,whatiscomb,myend,l
                             mo = 'orig-'
                         else:
                             if catch=='comb':
-                                features.replace(2,0,inplace=True)
+                                features[newcomb] = features[newcomb].replace(2,0)
                                 f2,reg = mymreg(features,target,addconst=0)
                                 mytest = reg.t_test((', '.join([c+' = 0' for c in comb[1:]]))+ext)
                             else:
                                 if addparam:
-                                    features.replace(2,0,inplace=True)
+                                    features[newcomb] = features[newcomb].replace(2,0)
                                 f2,reg = mymreg(features,target,addconst=1)
                                 mytest = reg.t_test('const = 0, '+(', '.join([c+' = 0' for c in comb[1:]]))+ext)
                             mo = ''
@@ -379,6 +377,47 @@ def FitModelParameters(wbe,prevdf,fitwwtps,useprevs,trymodels,whatiscomb,myend,l
                             'lag':lagc},index=[0])],ignore_index=True)
                         # This is for if we wanted to do train/test, and have an earlier end date for the fitting.
                         # Then this will compute a separate aicfulldf which uses all the data including out-of-sample data. 
+                        
+                        y = np.log10(mydf2[(mydf2.date<myend)][useprev])
+                        testset = np.log10(mydf2[(mydf2.date<myend)][comb[1:]])
+                        if model=='orig':
+                            y = np.log10(mydf2[(mydf2.date<myend)][correction]/mydf2[(mydf2.date<myend)][useprev])
+                            if catch=='comb':
+#                                 testset.replace(2,0,inplace=True)
+                                testset[newcomb] = testset[newcomb].replace(2,0)
+                                comb = ['date'] + newcomb
+                                testset = testset[comb[1:]].astype('float64')
+                            else:
+                                testset = sm.add_constant(testset)
+                                if addparam:
+#                                     testset.replace(2,0,inplace=True)
+                                    testset[newcomb] = testset[newcomb].replace(2,0)
+                                    testset = testset[['const',boolfeat]]
+                                else:
+                                    testset = testset[['const']]
+                        else:
+                            if catch=='comb':
+#                                 testset.replace(2,0,inplace=True)
+                                testset[newcomb] = testset[newcomb].replace(2,0)
+                            else:
+                                if addparam:
+#                                     testset.replace(2,0,inplace=True)
+                                    testset[newcomb] = testset[newcomb].replace(2,0)
+                                testset = sm.add_constant(testset)
+#                             print(len(testset))
+                        yhat = reg.predict(testset)
+#                         print(useprev,model,correction)
+                        mse = mean_squared_error(y,yhat)
+                        aictrain = len(y)*np.log(mse*2*np.pi*np.exp(1)) + 2*len(params)
+#                         if (correction=='raw_data') & (useprev=='sensitive admissions') & (model=='orig') & (lagc==2):
+#                             display(testset.info())
+#                             print(lagc)
+#                             print(yhat)
+#                             display(mydf2)
+#                             print(reg.params)
+                        if np.round_(reg.aic,4)!=np.round_(aictrain,4):
+                            print('Something may be wrong, these two are supposed to be the same:\n',reg.aic,aictrain)
+                        
                         if (myend!=altend):
                             # aic for all
 #                             print('doing aic overall')
@@ -387,27 +426,28 @@ def FitModelParameters(wbe,prevdf,fitwwtps,useprevs,trymodels,whatiscomb,myend,l
                             if model=='orig':
                                 y = np.log10(mydf2[(mydf2.date<altend)][correction]/mydf2[(mydf2.date<altend)][useprev])
                                 if catch=='comb':
-                                    testset.replace(2,0,inplace=True)
+                                    testset[newcomb] = testset[newcomb].replace(2,0)
                                     comb = ['date'] + newcomb
                                     testset = testset[comb[1:]].astype('float64')
                                 else:
                                     testset = sm.add_constant(testset)
                                     if addparam:
-                                        testset.replace(2,0,inplace=True)
+                                        testset[newcomb] = testset[newcomb].replace(2,0)
                                         testset = testset[['const',boolfeat]]
                                     else:
                                         testset = testset[['const']]
                             else:
                                 if catch=='comb':
-                                    testset.replace(2,0,inplace=True)
+                                    testset[newcomb] = testset[newcomb].replace(2,0)
                                 else:
                                     if addparam:
-                                        testset.replace(2,0,inplace=True)
+                                        testset[newcomb] = testset[newcomb].replace(2,0)
                                     testset = sm.add_constant(testset)
 #                             print(len(testset))
                             yhat = reg.predict(testset)
                             mse = mean_squared_error(y,yhat)
                             aicall = len(y)*np.log(mse*2*np.pi*np.exp(1)) + 2*len(params)
+            
 #                             print('aic overall completed: train=',reg.aic,', overall=',aicall)
                             # aic for test only
                             y = np.log10(mydf2[(mydf2.date<altend) & (mydf2.date>=myend)][useprev])
@@ -416,26 +456,27 @@ def FitModelParameters(wbe,prevdf,fitwwtps,useprevs,trymodels,whatiscomb,myend,l
                                 y = np.log10(mydf2[(mydf2.date<altend) & (mydf2.date>=myend)][correction]/
                                              mydf2[(mydf2.date<altend) & (mydf2.date>=myend)][useprev])
                                 if catch=='comb':
-                                    testset.replace(2,0,inplace=True)
+                                    testset[newcomb] = testset[newcomb].replace(2,0)
                                     comb = ['date'] + newcomb
                                     testset = testset[comb[1:]].astype('float64')
                                 else:
                                     testset = sm.add_constant(testset)
                                     if addparam:
-                                        testset.replace(2,0,inplace=True)
+                                        testset[newcomb] = testset[newcomb].replace(2,0)
                                         testset = testset[['const',boolfeat]]
                                     else:
                                         testset = testset[['const']]
                             else:
                                 if catch=='comb':
-                                    testset.replace(2,0,inplace=True)
+                                    testset[newcomb] = testset[newcomb].replace(2,0)
                                 else:
                                     if addparam:
-                                        testset.replace(2,0,inplace=True)
+                                        testset[newcomb] = testset[newcomb].replace(2,0)
                                     testset = sm.add_constant(testset)
 #                             print(len(testset))
                             yhat = reg.predict(testset)
-                            mse = mean_squared_error(y,yhat)
+                            if len(yhat)>1:
+                                mse = mean_squared_error(y,yhat)
                             aictest = len(y)*np.log(mse*2*np.pi*np.exp(1)) + 2*len(params)
 #                             print('now aic for test only completed: aic for test=',aictest)
                             aicfulldf = pd.concat([aicfulldf,pd.DataFrame({
@@ -463,3 +504,71 @@ def reformat_aic_params(aicdf,paramdf,trymodels):
     
     models = [test_dict['orig-'+mod] for mod in trymodels if 'pmmov_bcov' not in mod] + [test_dict[mod] for mod in trymodels]
     return aic2,param2,models
+
+
+def aic_heatmap_single(aic2,models,wwtp,useprevs,prevbounds,prevlagdict,fs1=16,fs2=18):
+    aic2.prevind=pd.Categorical(aic2.prevind,categories=aic2.prevind.unique(),ordered=True)
+    aic2.model=pd.Categorical(aic2.model,categories=aic2.model.unique(),ordered=True)
+    aic2.aic = aic2.groupby('prevind')['aic'].transform(lambda x: x-x.min())
+    pivotedaic = aic2[(aic2.model.isin(models)) & (aic2.wwtp==wwtp)].pivot_table(index = ['lag'],
+                             columns = ['prevind','model'],sort=False)
+    newmapaic = aic_colormap()
+    # for each prev, calc relative aic.
+    offset = {}
+    for prev in aic2.prevind.unique():
+        offset[prev] = pivotedaic.aic.loc[:,(pivotedaic.aic.columns.get_level_values('prevind')==prev)].min().min()
+    rel = ' - rel AIC across models and lags for each prev'
+
+    modtermdict = {'no correction':'SC2',
+                   'only flow':'SC2, flow',
+                   'pmmov norm':'SC2, PMMoV', 
+                   'only bcov norm':'SC2, BCoV',
+                   'bcov flow norm':'SC2, flow, BCoV',
+                   'pmmov bcov norm':'SC2, BCoV, PMMoV',
+                   'pm bc fl':'all terms'}
+    prevnamedict = {'hospital admissions':'Local Hosp Adm'}
+    nplots = len(useprevs)
+    fig = plt.figure(figsize=(nplots*3,9))
+    gs = fig.add_gridspec(1, nplots+1, hspace=0.03, wspace=0.03,width_ratios=[1]*nplots+[0.08])
+    axs = gs.subplots()
+    for n,prevind in enumerate(useprevs):
+        melted = pd.melt(pivotedaic['aic',prevind],var_name='model',value_name='aic',ignore_index=False)
+        melted.aic = melted.aic.apply(lambda x:discrete_color_aic(x))
+        melted.model=pd.Categorical(melted.model,categories=models,ordered=True)
+        # Updates: allow for variably chosen models to show here...
+        newpivotedaic = melted[(melted.model.str.contains('new')) & ~(melted.model.isin([' new only flow aic',' new no correction aic',' new pmmov norm aic']))].pivot_table(index=['lag'],columns=['model'],sort=False)
+        if n<nplots-1:
+            sns.heatmap(newpivotedaic['aic'], cmap=newmapaic,cbar=False,vmin=-0.5,vmax=5.5,ax= axs[n])
+        if n==nplots-1:
+            sns.heatmap(newpivotedaic['aic'], cmap=newmapaic,vmin=-0.5,vmax=5.5,ax= axs[n],cbar_ax=axs[n+1])
+        mymods = [modtermdict[m[4:-4]] for m in newpivotedaic.aic.columns.tolist()]
+        lags = newpivotedaic.aic.index.tolist()
+        axs[n].set_xticks(np.linspace(0.5,0.5*(len(mymods)*2-1),len(mymods)))
+        axs[n].set_xticklabels(mymods, fontsize = fs1)
+        axs[n].set_xlabel('Model',fontsize=fs2)
+        axs[n].set_yticks(np.linspace(0.5,0.5*(len(lags)*2-1),len(lags)))
+        axs[n].set_yticklabels(lags, fontsize = fs1)
+        axs[n].set_xlabel('')
+        axs[n].set_ylabel('')
+        if n>0:
+            axs[n].set_yticks([])
+        # Updates: if lags is not every integer from -10 to 10, this does not show the right lines...
+        axs[n].axhline(y=prevbounds[prevbounds.prevind==prevind].upper.iloc[0]+11,color='r') # upper
+        axs[n].axhline(y=prevbounds[prevbounds.prevind==prevind].lower.iloc[0]+10,color='r') # lower
+        if n==nplots-1:
+            colorbar = axs[n+1]#.collections[0].colorbar
+            colorbar.set_yticks([0,1,2,3,4,5])
+            colorbar.set_yticklabels(['0','0-4', '4-10', '10-20', '20-50', '>50'],rotation=90,\
+                                     verticalalignment='center',horizontalalignment='left',fontsize=fs1)
+            plt.annotate('Relative AIC Value',xy=(1,1),xycoords='figure fraction',
+                                   xytext=(4, 2.5), textcoords='data',
+                                   horizontalalignment='left',verticalalignment='center',rotation=90,fontsize=fs2)
+        if prevind in prevnamedict.keys():
+            name = prevnamedict[prevind]
+        else:
+            name = prevind
+        axs[n].set_title(name+'\nDe-lagged '+str(int(prevlagdict[prevind]))+' days',fontsize=fs2)
+
+    fig.text(0.07, 0.5,'Wastewater Lag Parameter', va='center', rotation='vertical',fontsize=fs2)
+    fig.text(0.5, -.1, 'Model', va='center', rotation='horizontal',fontsize=fs2)
+    plt.show()
